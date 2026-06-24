@@ -1,0 +1,98 @@
+=========================================================
+UR5E TELEOPERATION & VISUAL SERVOING - QUICK START GUIDE
+=========================================================
+
+This guide outlines the exact terminal steps required to bring up the 
+robot, initialize MoveIt Servo, and run either the RViz Teleoperation 
+or the AI Face Tracking system.
+
+---------------------------------------------------------
+STEP 0: Enable Display Forwarding (Run on Host Machine)
+---------------------------------------------------------
+Before entering the Docker container, you must allow the container 
+to display graphical windows (like RViz and the camera feed) on your screen.
+Run this on your host machine (outside of Docker):
+
+  xhost +local:root
+  (or simply: xhost +)
+  
+---------------------------------------------------------
+STEP 1: Launch the container (Run on Host Machine)
+---------------------------------------------------------
+
+# Launch the container using the alias
+run_zenpool_container
+
+# Navigate to the workspace (inside the container)
+cd ~/ws_me462
+
+# Build the ROS2 workspace
+colcon build --symlink-install
+
+# Source the newly built workspace
+source install/setup.bash
+
+---------------------------------------------------------
+STEP 2: Start the Robot Drivers (Terminal 1)
+---------------------------------------------------------
+Enter your Docker container in Terminal 1 and launch the underlying 
+UR driver and ROS 2 controllers using your tmuxinator profile:
+
+  tmuxinator start zenpool
+
+Wait for the drivers to fully connect to the physical robot.
+
+---------------------------------------------------------
+STEP 3: Start MoveIt Servo (Terminal 2)
+---------------------------------------------------------
+Open a second terminal, enter the Docker container, and start the 
+MoveIt Servo engine. This node listens for velocity commands and 
+calculates Inverse Kinematics (IK) in real-time.
+
+  cd ~/ws_me462
+  source install/local_setup.sh
+  ros2 launch my_robot_cell_moveit_config servo.launch.py
+
+Wait until it prints that the servo node is ready.
+
+---------------------------------------------------------
+STEP 4: Choose Your Control Mode (Terminal 3)
+---------------------------------------------------------
+Open a third terminal, enter the Docker container, and choose ONE 
+of the following control modes to launch:
+
+OPTION A: RViz Interactive Marker Teleoperation
+-----------------------------------------------
+Use this mode to manually control the robot in real-time by dragging 
+a virtual 3D marker in RViz.
+
+  cd ~/ws_me462
+  source install/local_setup.sh
+  ros2 run zenpool_draw_letter zenpool_teleop_servo
+
+*RViz Setup:*
+- In RViz, click "Add" -> "By display type" -> "InteractiveMarkers"
+- Expand its properties and set "Interactive marker namespace" to: teleop_marker
+- Select the "Interact" tool from the top toolbar to drag the yellow sphere!
+
+OPTION B: AI Face Tracking (Visual Servoing)
+--------------------------------------------
+Use this mode to have the robot's end-effector camera automatically 
+track your face and maintain a 35cm distance.
+
+  cd ~/ws_me462
+  source install/local_setup.sh
+  ros2 run zenpool_draw_letter face_tracker_servo.py
+
+*Camera Setup:*
+- A video window will open. Stand in front of the camera, and the 
+robot will fluidly track your face using Hybrid Mode!
+
+---------------------------------------------------------
+TROUBLESHOOTING & NETWORKING:
+---------------------------------------------------------
+- Robot Network IP: The Teach Pendant's "External Control URCap" Host IP must be set to the Pi's IP (e.g. 192.168.8.10) with Port 50002!
+- Camera Error (select timeout): Unplug the USB camera and plug it back in. Make sure no other scripts are holding the camera open.
+- Tracking Reversed: Flipped camera mount? Edit face_tracker_servo.py and invert the +/- signs for target_wx and target_wy.
+- Head Tilt Offset: Adjust the TILT_OFFSET_PIXELS variable inside face_tracker_servo.py.
+- To stop safely: Click on the video window and press 'q', or press Ctrl+C in Terminal 3.
