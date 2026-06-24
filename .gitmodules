@@ -1,0 +1,6 @@
+[submodule "src/ME462RobotControl"]
+	path = src/ME462RobotControl
+	url = git@github.com:ahmetdenizeroz/ME462RobotControl.git
+[submodule "tutan-khamun"]
+	path = tutan-khamun
+	url = git@gitlab.com:littledaisies/tutan-khamun.git
