@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ros/ws_me462/build/zenpool_draw_letter/zenpool_draw_letter" "/home/ros/ws_me462/build/zenpool_draw_letter/zenpool_draw_servo" "/home/ros/ws_me462/build/zenpool_draw_letter/zenpool_teleop_servo" "TARGETS" "zenpool_draw_letter" "zenpool_draw_servo" "zenpool_teleop_servo" "DESTINATION" "lib/zenpool_draw_letter")

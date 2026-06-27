@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating tutan_gripper.egg-info
+writing tutan_gripper.egg-info/PKG-INFO
+writing dependency_links to tutan_gripper.egg-info/dependency_links.txt
+writing entry points to tutan_gripper.egg-info/entry_points.txt
+writing requirements to tutan_gripper.egg-info/requires.txt
+writing top-level names to tutan_gripper.egg-info/top_level.txt
+writing manifest file 'tutan_gripper.egg-info/SOURCES.txt'
+reading manifest file 'tutan_gripper.egg-info/SOURCES.txt'
+writing manifest file 'tutan_gripper.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages/tutan-gripper.egg-link (link to .)
+Installing aruco_tracker_node script to /home/ros/ws_me462/install/tutan_gripper/lib/tutan_gripper
+Installing gripper_driver_node script to /home/ros/ws_me462/install/tutan_gripper/lib/tutan_gripper
+
+Installed /home/ros/ws_me462/build/tutan_gripper
+running symlink_data
+creating /home/ros/ws_me462/install/tutan_gripper/share/ament_index
+creating /home/ros/ws_me462/install/tutan_gripper/share/ament_index/resource_index
+creating /home/ros/ws_me462/install/tutan_gripper/share/ament_index/resource_index/packages
+symbolically linking /home/ros/ws_me462/build/tutan_gripper/resource/tutan_gripper -> /home/ros/ws_me462/install/tutan_gripper/share/ament_index/resource_index/packages
+symbolically linking /home/ros/ws_me462/build/tutan_gripper/package.xml -> /home/ros/ws_me462/install/tutan_gripper/share/tutan_gripper

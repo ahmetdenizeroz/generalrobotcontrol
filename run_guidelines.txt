@@ -89,6 +89,57 @@ track your face and maintain a 35cm distance.
 robot will fluidly track your face using Hybrid Mode!
 
 ---------------------------------------------------------
+OPTION C: ArUco Vision Tracking (Visual Servoing)
+-------------------------------------------------
+Use this mode to track an ArUco marker using the external Raspberry Pi camera and the custom UDP bridge.
+
+  # Terminal 3 (Docker): Start the UDP Bridge Node
+  ros2 run tutan_gripper aruco_tracker_node
+
+  # Terminal 4 (Docker): Start the MoveIt Servo Tracker
+  cd ~/ws_me462
+  source install/local_setup.sh
+  ros2 run zenpool_draw_letter aruco_tracker_servo.py
+
+*Camera Setup:*
+- Open a terminal OUTSIDE of Docker (on the Raspberry Pi Host) and run:
+  python3 ~/generalrobotcontrol/tutan-khamun/STServo_Python/littleDaisies/video/aruco_tracker.py
+- Show an ArUco marker to the camera and the robot will hold it in the center!
+
+---------------------------------------------------------
+OPTION D: Custom MoveIt Dashboard (Headless)
+---------------------------------------------------------
+Run this node in the background to listen for terminal commands. It calculates IK and mathematically handles Table-Frame alignment and tool re-orientation.
+
+  # Terminal 3 (Docker): Start the Dashboard Listener
+  cd ~/ws_me462
+  source install/local_setup.sh
+  ros2 run zenpool_draw_letter custom_dashboard.py
+
+*Publishing Commands:*
+Open a new Terminal (Docker) to send commands:
+
+- **Move to Specific Joint Angles (Degrees):**
+  ros2 topic pub --once /dashboard/move_joints std_msgs/msg/Float32MultiArray "{data: [-137.0, -140.0, -50.0, -80.0, 90.0, 178.0]}"
+
+- **Relative Cartesian Translation (cm):**
+  # X/Y move relative to the physically mounted table edges
+  ros2 topic pub --once /dashboard/move_cartesian geometry_msgs/msg/Vector3 "{x: 10.0, y: 0.0, z: -5.0}"
+
+- **Base Plane Parallel Re-orientation (Degrees):**
+  # x=Pitch, y=Roll, z=Yaw. 
+  # x:0, y:0 perfectly squares the tool to face down. z:0 aligns Tool X/Y axes with Base X/Y axes (reversed due to facing down).
+  ros2 topic pub --once /dashboard/reorient geometry_msgs/msg/Vector3 "{x: 15.0, y: -10.0, z: 0.0}"
+
+- **Adjust Cartesian Speed (0.0 to 1.0):**
+  # Send 0.1 for 10% speed, 0.5 for 50% speed. Default is 0.2 (20%).
+  ros2 topic pub --once /dashboard/set_speed std_msgs/msg/Float32MultiArray "{data: [0.5]}"
+
+
+  ros2 topic echo --once /joint_states
+
+
+---------------------------------------------------------
 TROUBLESHOOTING & NETWORKING:
 ---------------------------------------------------------
 - Robot Network IP: The Teach Pendant's "External Control URCap" Host IP must be set to the Pi's IP (e.g. 192.168.8.10) with Port 50002!

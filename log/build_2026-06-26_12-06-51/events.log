@@ -1,0 +1,485 @@
+[0.000000] (-) TimerEvent: {}
+[0.000833] (-) JobUnselected: {'identifier': 'my_robot_cell_control'}
+[0.002203] (-) JobUnselected: {'identifier': 'my_robot_cell_description'}
+[0.003868] (-) JobUnselected: {'identifier': 'my_robot_cell_moveit_config'}
+[0.004351] (-) JobUnselected: {'identifier': 'tutan_gripper'}
+[0.004985] (zenpool_draw_letter) JobQueued: {'identifier': 'zenpool_draw_letter', 'dependencies': OrderedDict()}
+[0.005409] (zenpool_draw_letter) JobStarted: {'identifier': 'zenpool_draw_letter'}
+[0.054066] (zenpool_draw_letter) JobProgress: {'identifier': 'zenpool_draw_letter', 'progress': 'cmake'}
+[0.093348] (zenpool_draw_letter) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter', '-DCMAKE_INSTALL_PREFIX=/home/ros/ws_me462/install/zenpool_draw_letter'], 'cwd': '/home/ros/ws_me462/build/zenpool_draw_letter', 'env': OrderedDict([('HOSTNAME', 'deniz-pi500'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ws_me462'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros/ws_me462/build/zenpool_draw_letter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099742] (-) TimerEvent: {}
+[0.143250] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199897] (-) TimerEvent: {}
+[0.300395] (-) TimerEvent: {}
+[0.401454] (-) TimerEvent: {}
+[0.455487] (zenpool_draw_letter) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.469825] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.488719] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.501665] (-) TimerEvent: {}
+[0.558410] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.562290] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.572155] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.589216] (zenpool_draw_letter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601825] (-) TimerEvent: {}
+[0.619727] (zenpool_draw_letter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701943] (-) TimerEvent: {}
+[0.802699] (-) TimerEvent: {}
+[0.903089] (-) TimerEvent: {}
+[0.958240] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.989366] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found parameter_traits: 0.7.1 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.003198] (-) TimerEvent: {}
+[1.043952] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.045961] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.103329] (-) TimerEvent: {}
+[1.203777] (-) TimerEvent: {}
+[1.235169] (zenpool_draw_letter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.302065] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.303863] (-) TimerEvent: {}
+[1.350128] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.402953] (zenpool_draw_letter) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[1.403962] (-) TimerEvent: {}
+[1.458791] (zenpool_draw_letter) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.504092] (-) TimerEvent: {}
+[1.604492] (-) TimerEvent: {}
+[1.658444] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.703984] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[1.704573] (-) TimerEvent: {}
+[1.749238] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[1.797811] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.1.2 (/opt/ros/humble/share/moveit_visual_tools/cmake)\n'}
+[1.804684] (-) TimerEvent: {}
+[1.883012] (zenpool_draw_letter) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[1.888808] (zenpool_draw_letter) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[1.890573] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found OGRE\n'}
+[1.890882] (zenpool_draw_letter) StdoutLine: {'line': b'--   static     : OFF\n'}
+[1.890999] (zenpool_draw_letter) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[1.891127] (zenpool_draw_letter) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.891213] (zenpool_draw_letter) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[1.891347] (zenpool_draw_letter) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[1.891428] (zenpool_draw_letter) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[1.891502] (zenpool_draw_letter) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.891574] (zenpool_draw_letter) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[1.891667] (zenpool_draw_letter) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.891779] (zenpool_draw_letter) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.891856] (zenpool_draw_letter) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.891942] (zenpool_draw_letter) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.892684] (zenpool_draw_letter) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[1.904779] (-) TimerEvent: {}
+[2.005121] (-) TimerEvent: {}
+[2.079858] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found controller_manager_msgs: 2.54.0 (/opt/ros/humble/share/controller_manager_msgs/cmake)\n'}
+[2.099911] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found control_msgs: 4.9.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[2.105202] (-) TimerEvent: {}
+[2.160492] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.205319] (-) TimerEvent: {}
+[2.305744] (-) TimerEvent: {}
+[2.344735] (zenpool_draw_letter) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.345326] (zenpool_draw_letter) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/include>\n'}
+[2.345481] (zenpool_draw_letter) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.346019] (zenpool_draw_letter) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.346849] (zenpool_draw_letter) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.347429] (zenpool_draw_letter) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.349104] (zenpool_draw_letter) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.349250] (zenpool_draw_letter) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.349739] (zenpool_draw_letter) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.351592] (zenpool_draw_letter) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.405867] (-) TimerEvent: {}
+[2.506300] (-) TimerEvent: {}
+[2.541960] (zenpool_draw_letter) StdoutLine: {'line': b'-- Generating done\n'}
+[2.606430] (-) TimerEvent: {}
+[2.655374] (zenpool_draw_letter) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ws_me462/build/zenpool_draw_letter\n'}
+[2.684600] (zenpool_draw_letter) CommandEnded: {'returncode': 0}
+[2.685592] (zenpool_draw_letter) JobProgress: {'identifier': 'zenpool_draw_letter', 'progress': 'build'}
+[2.686694] (zenpool_draw_letter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ws_me462/build/zenpool_draw_letter', '--', '-j4', '-l4'], 'cwd': '/home/ros/ws_me462/build/zenpool_draw_letter', 'env': OrderedDict([('HOSTNAME', 'deniz-pi500'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ws_me462'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros/ws_me462/build/zenpool_draw_letter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.706555] (-) TimerEvent: {}
+[2.796683] (zenpool_draw_letter) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zenpool_teleop_servo\x1b[0m\n'}
+[2.797052] (zenpool_draw_letter) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zenpool_draw_letter\x1b[0m\n'}
+[2.797424] (zenpool_draw_letter) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zenpool_draw_servo\x1b[0m\n'}
+[2.806682] (-) TimerEvent: {}
+[2.883892] (zenpool_draw_letter) StdoutLine: {'line': b'[ 33%] Built target zenpool_teleop_servo\n'}
+[2.906826] (-) TimerEvent: {}
+[2.926398] (zenpool_draw_letter) StdoutLine: {'line': b'[ 66%] Built target zenpool_draw_servo\n'}
+[2.936948] (zenpool_draw_letter) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/zenpool_draw_letter.dir/src/zenpool_draw_letter.cpp.o\x1b[0m\n'}
+[3.006948] (-) TimerEvent: {}
+[3.107346] (-) TimerEvent: {}
+[3.207728] (-) TimerEvent: {}
+[3.308241] (-) TimerEvent: {}
+[3.408657] (-) TimerEvent: {}
+[3.509126] (-) TimerEvent: {}
+[3.609499] (-) TimerEvent: {}
+[3.709897] (-) TimerEvent: {}
+[3.810279] (-) TimerEvent: {}
+[3.910687] (-) TimerEvent: {}
+[4.011078] (-) TimerEvent: {}
+[4.111778] (-) TimerEvent: {}
+[4.213753] (-) TimerEvent: {}
+[4.315149] (-) TimerEvent: {}
+[4.415708] (-) TimerEvent: {}
+[4.516282] (-) TimerEvent: {}
+[4.617975] (-) TimerEvent: {}
+[4.718713] (-) TimerEvent: {}
+[4.822994] (-) TimerEvent: {}
+[4.923680] (-) TimerEvent: {}
+[5.024444] (-) TimerEvent: {}
+[5.126771] (-) TimerEvent: {}
+[5.227482] (-) TimerEvent: {}
+[5.327917] (-) TimerEvent: {}
+[5.428338] (-) TimerEvent: {}
+[5.528828] (-) TimerEvent: {}
+[5.629284] (-) TimerEvent: {}
+[5.729740] (-) TimerEvent: {}
+[5.830180] (-) TimerEvent: {}
+[5.930593] (-) TimerEvent: {}
+[6.031063] (-) TimerEvent: {}
+[6.131489] (-) TimerEvent: {}
+[6.231941] (-) TimerEvent: {}
+[6.332354] (-) TimerEvent: {}
+[6.432872] (-) TimerEvent: {}
+[6.533540] (-) TimerEvent: {}
+[6.634044] (-) TimerEvent: {}
+[6.734480] (-) TimerEvent: {}
+[6.834916] (-) TimerEvent: {}
+[6.935359] (-) TimerEvent: {}
+[7.035841] (-) TimerEvent: {}
+[7.136282] (-) TimerEvent: {}
+[7.236731] (-) TimerEvent: {}
+[7.337174] (-) TimerEvent: {}
+[7.437640] (-) TimerEvent: {}
+[7.538088] (-) TimerEvent: {}
+[7.638542] (-) TimerEvent: {}
+[7.739046] (-) TimerEvent: {}
+[7.840697] (-) TimerEvent: {}
+[7.941192] (-) TimerEvent: {}
+[8.041866] (-) TimerEvent: {}
+[8.142328] (-) TimerEvent: {}
+[8.242856] (-) TimerEvent: {}
+[8.343304] (-) TimerEvent: {}
+[8.443771] (-) TimerEvent: {}
+[8.544353] (-) TimerEvent: {}
+[8.644805] (-) TimerEvent: {}
+[8.745248] (-) TimerEvent: {}
+[8.845705] (-) TimerEvent: {}
+[8.946154] (-) TimerEvent: {}
+[9.046588] (-) TimerEvent: {}
+[9.147061] (-) TimerEvent: {}
+[9.247505] (-) TimerEvent: {}
+[9.347973] (-) TimerEvent: {}
+[9.448387] (-) TimerEvent: {}
+[9.548858] (-) TimerEvent: {}
+[9.649293] (-) TimerEvent: {}
+[9.749745] (-) TimerEvent: {}
+[9.850212] (-) TimerEvent: {}
+[9.950684] (-) TimerEvent: {}
+[10.051127] (-) TimerEvent: {}
+[10.151566] (-) TimerEvent: {}
+[10.252032] (-) TimerEvent: {}
+[10.352477] (-) TimerEvent: {}
+[10.452917] (-) TimerEvent: {}
+[10.553381] (-) TimerEvent: {}
+[10.653842] (-) TimerEvent: {}
+[10.754277] (-) TimerEvent: {}
+[10.854719] (-) TimerEvent: {}
+[10.955171] (-) TimerEvent: {}
+[11.055631] (-) TimerEvent: {}
+[11.156067] (-) TimerEvent: {}
+[11.256521] (-) TimerEvent: {}
+[11.356978] (-) TimerEvent: {}
+[11.457437] (-) TimerEvent: {}
+[11.557880] (-) TimerEvent: {}
+[11.658306] (-) TimerEvent: {}
+[11.758752] (-) TimerEvent: {}
+[11.859181] (-) TimerEvent: {}
+[11.959633] (-) TimerEvent: {}
+[12.060096] (-) TimerEvent: {}
+[12.160548] (-) TimerEvent: {}
+[12.261015] (-) TimerEvent: {}
+[12.361472] (-) TimerEvent: {}
+[12.461945] (-) TimerEvent: {}
+[12.562371] (-) TimerEvent: {}
+[12.662840] (-) TimerEvent: {}
+[12.763263] (-) TimerEvent: {}
+[12.863687] (-) TimerEvent: {}
+[12.964130] (-) TimerEvent: {}
+[13.064571] (-) TimerEvent: {}
+[13.165041] (-) TimerEvent: {}
+[13.265490] (-) TimerEvent: {}
+[13.365940] (-) TimerEvent: {}
+[13.466380] (-) TimerEvent: {}
+[13.566842] (-) TimerEvent: {}
+[13.667274] (-) TimerEvent: {}
+[13.767699] (-) TimerEvent: {}
+[13.868130] (-) TimerEvent: {}
+[13.968568] (-) TimerEvent: {}
+[14.069030] (-) TimerEvent: {}
+[14.169506] (-) TimerEvent: {}
+[14.270008] (-) TimerEvent: {}
+[14.370475] (-) TimerEvent: {}
+[14.470917] (-) TimerEvent: {}
+[14.571358] (-) TimerEvent: {}
+[14.671819] (-) TimerEvent: {}
+[14.772261] (-) TimerEvent: {}
+[14.872779] (-) TimerEvent: {}
+[14.973306] (-) TimerEvent: {}
+[15.074444] (-) TimerEvent: {}
+[15.174926] (-) TimerEvent: {}
+[15.275366] (-) TimerEvent: {}
+[15.375817] (-) TimerEvent: {}
+[15.476258] (-) TimerEvent: {}
+[15.576746] (-) TimerEvent: {}
+[15.677173] (-) TimerEvent: {}
+[15.777626] (-) TimerEvent: {}
+[15.878231] (-) TimerEvent: {}
+[15.978703] (-) TimerEvent: {}
+[16.079132] (-) TimerEvent: {}
+[16.179606] (-) TimerEvent: {}
+[16.280047] (-) TimerEvent: {}
+[16.380486] (-) TimerEvent: {}
+[16.480949] (-) TimerEvent: {}
+[16.581409] (-) TimerEvent: {}
+[16.682025] (-) TimerEvent: {}
+[16.782498] (-) TimerEvent: {}
+[16.882980] (-) TimerEvent: {}
+[16.983405] (-) TimerEvent: {}
+[17.083830] (-) TimerEvent: {}
+[17.184261] (-) TimerEvent: {}
+[17.284692] (-) TimerEvent: {}
+[17.385148] (-) TimerEvent: {}
+[17.485558] (-) TimerEvent: {}
+[17.586030] (-) TimerEvent: {}
+[17.686445] (-) TimerEvent: {}
+[17.786911] (-) TimerEvent: {}
+[17.887325] (-) TimerEvent: {}
+[17.987782] (-) TimerEvent: {}
+[18.088190] (-) TimerEvent: {}
+[18.188657] (-) TimerEvent: {}
+[18.289097] (-) TimerEvent: {}
+[18.389551] (-) TimerEvent: {}
+[18.490035] (-) TimerEvent: {}
+[18.590492] (-) TimerEvent: {}
+[18.691035] (-) TimerEvent: {}
+[18.791507] (-) TimerEvent: {}
+[18.891938] (-) TimerEvent: {}
+[18.992380] (-) TimerEvent: {}
+[19.092833] (-) TimerEvent: {}
+[19.193266] (-) TimerEvent: {}
+[19.261408] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:109:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.261834] (zenpool_draw_letter) StderrLine: {'line': b'  109 |                   const rclcpp::Logger& logger, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& draw_traj, auto& mvt, auto& prompt, const std::string& label) {\n'}
+[19.261952] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.262046] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:109:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.262140] (zenpool_draw_letter) StderrLine: {'line': b'  109 |                   const rclcpp::Logger& logger, auto& draw_traj, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& mvt, auto& prompt, const std::string& label) {\n'}
+[19.262366] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.262454] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:109:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.262550] (zenpool_draw_letter) StderrLine: {'line': b'  109 |                   const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& prompt, const std::string& label) {\n'}
+[19.262648] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.262761] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:130:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.262865] (zenpool_draw_letter) StderrLine: {'line': b'  130 |                                const rclcpp::Logger& logger, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& draw_traj, auto& mvt, auto& prompt,\n'}
+[19.262941] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.263016] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:130:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.263091] (zenpool_draw_letter) StderrLine: {'line': b'  130 |                                const rclcpp::Logger& logger, auto& draw_traj, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& mvt, auto& prompt,\n'}
+[19.263163] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                                               \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.263234] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:130:90:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.263330] (zenpool_draw_letter) StderrLine: {'line': b'  130 |                                const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& prompt,\n'}
+[19.263400] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                                                          \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.276926] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:162:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.277270] (zenpool_draw_letter) StderrLine: {'line': b'  162 |                       const rclcpp::Logger& logger, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& draw_traj, auto& mvt, auto& prompt,\n'}
+[19.277386] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.277469] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:162:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.277551] (zenpool_draw_letter) StderrLine: {'line': b'  162 |                       const rclcpp::Logger& logger, auto& draw_traj, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& mvt, auto& prompt,\n'}
+[19.277667] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.277756] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:162:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.277881] (zenpool_draw_letter) StderrLine: {'line': b'  162 |                       const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& prompt,\n'}
+[19.277956] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                                                 \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.292399] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:185:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.292836] (zenpool_draw_letter) StderrLine: {'line': b'  185 |                   const rclcpp::Logger& logger, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& draw_traj, auto& mvt, auto& prompt, const std::string& label) {\n'}
+[19.292962] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.293047] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:185:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.293160] (zenpool_draw_letter) StderrLine: {'line': b'  185 |                   const rclcpp::Logger& logger, auto& draw_traj, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& mvt, auto& prompt, const std::string& label) {\n'}
+[19.293239] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.293310] (-) TimerEvent: {}
+[19.293523] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:185:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.293707] (zenpool_draw_letter) StderrLine: {'line': b'  185 |                   const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& prompt, const std::string& label) {\n'}
+[19.293832] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.293931] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:205:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.294234] (zenpool_draw_letter) StderrLine: {'line': b'  205 |                        const rclcpp::Logger& logger, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& draw_traj, auto& mvt, auto& prompt,\n'}
+[19.294419] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.294699] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:205:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.294969] (zenpool_draw_letter) StderrLine: {'line': b'  205 |                        const rclcpp::Logger& logger, auto& draw_traj, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& mvt, auto& prompt,\n'}
+[19.295453] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.295881] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:205:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.296207] (zenpool_draw_letter) StderrLine: {'line': b'  205 |                        const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& prompt,\n'}
+[19.296486] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.351921] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:267:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.354297] (zenpool_draw_letter) StderrLine: {'line': b'  267 |                         const rclcpp::Logger& logger, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& draw_traj, auto& mvt, auto& prompt,\n'}
+[19.355585] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.357072] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:267:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.357897] (zenpool_draw_letter) StderrLine: {'line': b'  267 |                         const rclcpp::Logger& logger, auto& draw_traj, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& mvt, auto& prompt,\n'}
+[19.358081] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.358181] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:267:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.358269] (zenpool_draw_letter) StderrLine: {'line': b'  267 |                         const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, \x1b[01;35m\x1b[Kauto\x1b[m\x1b[K& prompt,\n'}
+[19.358346] (zenpool_draw_letter) StderrLine: {'line': b'      |                                                                                   \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.393492] (-) TimerEvent: {}
+[19.494056] (-) TimerEvent: {}
+[19.594488] (-) TimerEvent: {}
+[19.694947] (-) TimerEvent: {}
+[19.795382] (-) TimerEvent: {}
+[19.895923] (-) TimerEvent: {}
+[19.996385] (-) TimerEvent: {}
+[20.096848] (-) TimerEvent: {}
+[20.173146] (zenpool_draw_letter) StderrLine: {'line': b'/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool executeNamed(moveit::planning_interface::MoveGroupInterface&, const string&, const rclcpp::Logger&, auto:49&, auto:50&, auto:51&, const string&) [with auto:49 = const main(int, char**)::<lambda(auto:59)>; auto:50 = moveit_visual_tools::MoveItVisualTools; auto:51 = const main(int, char**)::<lambda(auto:58)>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.173544] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:445:15:\x1b[m\x1b[K   required from here\n'}
+[20.173734] (zenpool_draw_letter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:185:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klogger\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.173842] (zenpool_draw_letter) StderrLine: {'line': b'  185 |                   \x1b[01;35m\x1b[Kconst rclcpp::Logger& logger\x1b[m\x1b[K, auto& draw_traj, auto& mvt, auto& prompt, const std::string& label) {\n'}
+[20.173926] (zenpool_draw_letter) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[20.196988] (-) TimerEvent: {}
+[20.297446] (-) TimerEvent: {}
+[20.397890] (-) TimerEvent: {}
+[20.498360] (-) TimerEvent: {}
+[20.598848] (-) TimerEvent: {}
+[20.699286] (-) TimerEvent: {}
+[20.799734] (-) TimerEvent: {}
+[20.900172] (-) TimerEvent: {}
+[21.000626] (-) TimerEvent: {}
+[21.101049] (-) TimerEvent: {}
+[21.201505] (-) TimerEvent: {}
+[21.301937] (-) TimerEvent: {}
+[21.402395] (-) TimerEvent: {}
+[21.502852] (-) TimerEvent: {}
+[21.603280] (-) TimerEvent: {}
+[21.703704] (-) TimerEvent: {}
+[21.804164] (-) TimerEvent: {}
+[21.904586] (-) TimerEvent: {}
+[22.005032] (-) TimerEvent: {}
+[22.105459] (-) TimerEvent: {}
+[22.205880] (-) TimerEvent: {}
+[22.306292] (-) TimerEvent: {}
+[22.406733] (-) TimerEvent: {}
+[22.507149] (-) TimerEvent: {}
+[22.607597] (-) TimerEvent: {}
+[22.708019] (-) TimerEvent: {}
+[22.808465] (-) TimerEvent: {}
+[22.908937] (-) TimerEvent: {}
+[23.009381] (-) TimerEvent: {}
+[23.109871] (-) TimerEvent: {}
+[23.210302] (-) TimerEvent: {}
+[23.310734] (-) TimerEvent: {}
+[23.411173] (-) TimerEvent: {}
+[23.511654] (-) TimerEvent: {}
+[23.612130] (-) TimerEvent: {}
+[23.712549] (-) TimerEvent: {}
+[23.813035] (-) TimerEvent: {}
+[23.913454] (-) TimerEvent: {}
+[24.013922] (-) TimerEvent: {}
+[24.114342] (-) TimerEvent: {}
+[24.214819] (-) TimerEvent: {}
+[24.315253] (-) TimerEvent: {}
+[24.415697] (-) TimerEvent: {}
+[24.516106] (-) TimerEvent: {}
+[24.616524] (-) TimerEvent: {}
+[24.717005] (-) TimerEvent: {}
+[24.817493] (-) TimerEvent: {}
+[24.918058] (-) TimerEvent: {}
+[25.018488] (-) TimerEvent: {}
+[25.118952] (-) TimerEvent: {}
+[25.219443] (-) TimerEvent: {}
+[25.319944] (-) TimerEvent: {}
+[25.420374] (-) TimerEvent: {}
+[25.520870] (-) TimerEvent: {}
+[25.621351] (-) TimerEvent: {}
+[25.721857] (-) TimerEvent: {}
+[25.822301] (-) TimerEvent: {}
+[25.922759] (-) TimerEvent: {}
+[26.023475] (-) TimerEvent: {}
+[26.124045] (-) TimerEvent: {}
+[26.224675] (-) TimerEvent: {}
+[26.325090] (-) TimerEvent: {}
+[26.425514] (-) TimerEvent: {}
+[26.525967] (-) TimerEvent: {}
+[26.626383] (-) TimerEvent: {}
+[26.726862] (-) TimerEvent: {}
+[26.827298] (-) TimerEvent: {}
+[26.927707] (-) TimerEvent: {}
+[27.028140] (-) TimerEvent: {}
+[27.128548] (-) TimerEvent: {}
+[27.229104] (-) TimerEvent: {}
+[27.329525] (-) TimerEvent: {}
+[27.429973] (-) TimerEvent: {}
+[27.530409] (-) TimerEvent: {}
+[27.630839] (-) TimerEvent: {}
+[27.731259] (-) TimerEvent: {}
+[27.831692] (-) TimerEvent: {}
+[27.932115] (-) TimerEvent: {}
+[28.032548] (-) TimerEvent: {}
+[28.132983] (-) TimerEvent: {}
+[28.233393] (-) TimerEvent: {}
+[28.333881] (-) TimerEvent: {}
+[28.434295] (-) TimerEvent: {}
+[28.534718] (-) TimerEvent: {}
+[28.635197] (-) TimerEvent: {}
+[28.735841] (-) TimerEvent: {}
+[28.836423] (-) TimerEvent: {}
+[28.936924] (-) TimerEvent: {}
+[29.037486] (-) TimerEvent: {}
+[29.137969] (-) TimerEvent: {}
+[29.238417] (-) TimerEvent: {}
+[29.338879] (-) TimerEvent: {}
+[29.413305] (zenpool_draw_letter) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable zenpool_draw_letter\x1b[0m\n'}
+[29.439037] (-) TimerEvent: {}
+[29.539479] (-) TimerEvent: {}
+[29.640077] (-) TimerEvent: {}
+[29.740819] (-) TimerEvent: {}
+[29.841810] (-) TimerEvent: {}
+[29.942505] (-) TimerEvent: {}
+[30.043719] (-) TimerEvent: {}
+[30.145499] (-) TimerEvent: {}
+[30.246452] (-) TimerEvent: {}
+[30.346970] (-) TimerEvent: {}
+[30.447595] (-) TimerEvent: {}
+[30.548267] (-) TimerEvent: {}
+[30.649115] (-) TimerEvent: {}
+[30.750063] (-) TimerEvent: {}
+[30.850841] (-) TimerEvent: {}
+[30.951544] (-) TimerEvent: {}
+[31.052499] (-) TimerEvent: {}
+[31.153429] (-) TimerEvent: {}
+[31.254206] (-) TimerEvent: {}
+[31.354945] (-) TimerEvent: {}
+[31.455447] (-) TimerEvent: {}
+[31.555965] (-) TimerEvent: {}
+[31.656410] (-) TimerEvent: {}
+[31.756869] (-) TimerEvent: {}
+[31.857363] (-) TimerEvent: {}
+[31.957834] (-) TimerEvent: {}
+[32.058735] (-) TimerEvent: {}
+[32.161671] (-) TimerEvent: {}
+[32.262190] (-) TimerEvent: {}
+[32.362721] (-) TimerEvent: {}
+[32.463366] (-) TimerEvent: {}
+[32.547848] (zenpool_draw_letter) StdoutLine: {'line': b'[100%] Built target zenpool_draw_letter\n'}
+[32.563463] (-) TimerEvent: {}
+[32.584839] (zenpool_draw_letter) CommandEnded: {'returncode': 0}
+[32.587571] (zenpool_draw_letter) JobProgress: {'identifier': 'zenpool_draw_letter', 'progress': 'install'}
+[32.610493] (zenpool_draw_letter) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ws_me462/build/zenpool_draw_letter'], 'cwd': '/home/ros/ws_me462/build/zenpool_draw_letter', 'env': OrderedDict([('HOSTNAME', 'deniz-pi500'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ws_me462'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros/ws_me462/build/zenpool_draw_letter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[32.626675] (zenpool_draw_letter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.627358] (zenpool_draw_letter) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[32.627847] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/zenpool_draw_letter\n'}
+[32.628075] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/zenpool_draw_servo\n'}
+[32.628288] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/zenpool_teleop_servo\n'}
+[32.628535] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/face_tracker_servo.py\n'}
+[32.628735] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/aruco_tracker_servo.py\n'}
+[32.629120] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/ament_index/resource_index/package_run_dependencies/zenpool_draw_letter\n'}
+[32.629396] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/ament_index/resource_index/parent_prefix_path/zenpool_draw_letter\n'}
+[32.629656] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/ament_prefix_path.sh\n'}
+[32.629930] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/ament_prefix_path.dsv\n'}
+[32.630174] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/path.sh\n'}
+[32.630390] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/path.dsv\n'}
+[32.630598] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.bash\n'}
+[32.630829] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.sh\n'}
+[32.631037] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.zsh\n'}
+[32.631239] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.dsv\n'}
+[32.631386] (zenpool_draw_letter) StdoutLine: {'line': b'-- Symlinking: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/package.dsv\n'}
+[32.649417] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/ament_index/resource_index/packages/zenpool_draw_letter\n'}
+[32.650242] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/cmake/zenpool_draw_letterConfig.cmake\n'}
+[32.650388] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/cmake/zenpool_draw_letterConfig-version.cmake\n'}
+[32.650502] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/package.xml\n'}
+[32.653393] (zenpool_draw_letter) CommandEnded: {'returncode': 0}
+[32.663607] (-) TimerEvent: {}
+[32.735520] (zenpool_draw_letter) JobEnded: {'identifier': 'zenpool_draw_letter', 'rc': 0}
+[32.737223] (-) EventReactorShutdown: {}

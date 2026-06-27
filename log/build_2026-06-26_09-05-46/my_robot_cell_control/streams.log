@@ -1,0 +1,48 @@
+[0.068s] Invoking command in '/home/ros/ws_me462/build/my_robot_cell_control': AMENT_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble /usr/bin/cmake /home/ros/ws_me462/src/ME462RobotControl/my_robot_cell/my_robot_cell_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ws_me462/install/my_robot_cell_control
+[0.392s] -- The C compiler identification is GNU 11.4.0
+[0.620s] -- The CXX compiler identification is GNU 11.4.0
+[0.659s] -- Detecting C compiler ABI info
+[0.959s] -- Detecting C compiler ABI info - done
+[0.971s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.971s] -- Detecting C compile features
+[0.972s] -- Detecting C compile features - done
+[0.980s] -- Detecting CXX compiler ABI info
+[1.375s] -- Detecting CXX compiler ABI info - done
+[1.391s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.394s] -- Detecting CXX compile features
+[1.394s] -- Detecting CXX compile features - done
+[1.401s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.882s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.154s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.527s] -- Configuring done
+[2.546s] -- Generating done
+[2.548s] -- Build files have been written to: /home/ros/ws_me462/build/my_robot_cell_control
+[2.561s] Invoked command in '/home/ros/ws_me462/build/my_robot_cell_control' returned '0': AMENT_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble /usr/bin/cmake /home/ros/ws_me462/src/ME462RobotControl/my_robot_cell/my_robot_cell_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ws_me462/install/my_robot_cell_control
+[2.564s] Invoking command in '/home/ros/ws_me462/build/my_robot_cell_control': AMENT_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/my_robot_cell_control -- -j4 -l4
+[2.689s] Invoked command in '/home/ros/ws_me462/build/my_robot_cell_control' returned '0': AMENT_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/my_robot_cell_control -- -j4 -l4
+[2.689s] Invoking command in '/home/ros/ws_me462/build/my_robot_cell_control': AMENT_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble /usr/bin/cmake --install /home/ros/ws_me462/build/my_robot_cell_control
+[2.730s] -- Install configuration: ""
+[2.733s] -- Execute custom install script
+[2.734s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/launch/start_robot.launch.py
+[2.767s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/config/my_robot_calibration.yaml
+[2.788s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/config/ur5e/joint_limits.yaml
+[2.833s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/config/ur5e/physical_parameters.yaml
+[2.860s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/config/ur5e/visual_parameters.yaml
+[2.884s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/urdf/my_robot_cell_controlled.urdf.xacro
+[2.911s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/rviz/view_robot.rviz
+[2.951s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/ament_index/resource_index/package_run_dependencies/my_robot_cell_control
+[2.975s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/ament_index/resource_index/parent_prefix_path/my_robot_cell_control
+[2.995s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/environment/ament_prefix_path.sh
+[3.028s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/environment/ament_prefix_path.dsv
+[3.072s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/environment/path.sh
+[3.093s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/environment/path.dsv
+[3.131s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/local_setup.bash
+[3.161s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/local_setup.sh
+[3.187s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/local_setup.zsh
+[3.219s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/local_setup.dsv
+[3.255s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/package.dsv
+[3.277s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/ament_index/resource_index/packages/my_robot_cell_control
+[3.296s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/cmake/my_robot_cell_controlConfig.cmake
+[3.336s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/cmake/my_robot_cell_controlConfig-version.cmake
+[3.384s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/package.xml
+[3.410s] Invoked command in '/home/ros/ws_me462/build/my_robot_cell_control' returned '0': AMENT_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble /usr/bin/cmake --install /home/ros/ws_me462/build/my_robot_cell_control

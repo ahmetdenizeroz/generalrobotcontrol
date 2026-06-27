@@ -1,0 +1,4 @@
+[ 33%] Built target zenpool_draw_letter
+[ 66%] Built target zenpool_teleop_servo
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/zenpool_draw_servo.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

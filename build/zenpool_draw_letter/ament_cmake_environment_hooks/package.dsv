@@ -1,0 +1,4 @@
+source;share/zenpool_draw_letter/local_setup.bash
+source;share/zenpool_draw_letter/local_setup.dsv
+source;share/zenpool_draw_letter/local_setup.sh
+source;share/zenpool_draw_letter/local_setup.zsh

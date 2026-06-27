@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a4153bbb6956befba393.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zenpool_draw_letter",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-28a2797ea0cc1bd3a49d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zenpool_draw_letter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zenpool_draw_letter-634dff6a3e09f1682a9f.json",
+					"name" : "zenpool_draw_letter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zenpool_draw_letter_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zenpool_draw_letter_uninstall-fd70c1b557b09ad39651.json",
+					"name" : "zenpool_draw_letter_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zenpool_draw_servo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zenpool_draw_servo-be73dfad8589755c3399.json",
+					"name" : "zenpool_draw_servo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zenpool_teleop_servo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zenpool_teleop_servo-60d4792d5dc3e20d33a6.json",
+					"name" : "zenpool_teleop_servo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros/ws_me462/build/zenpool_draw_letter",
+		"source" : "/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

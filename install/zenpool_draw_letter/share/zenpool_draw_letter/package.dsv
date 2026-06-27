@@ -1,0 +1,8 @@
+source;share/zenpool_draw_letter/hook/cmake_prefix_path.ps1
+source;share/zenpool_draw_letter/hook/cmake_prefix_path.dsv
+source;share/zenpool_draw_letter/hook/cmake_prefix_path.sh
+source;share/zenpool_draw_letter/local_setup.bash
+source;share/zenpool_draw_letter/local_setup.dsv
+source;share/zenpool_draw_letter/local_setup.ps1
+source;share/zenpool_draw_letter/local_setup.sh
+source;share/zenpool_draw_letter/local_setup.zsh

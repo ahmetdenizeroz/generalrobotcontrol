@@ -1,0 +1,65 @@
+[0.070s] Invoking command in '/home/ros/ws_me462/build/my_robot_cell_moveit_config': AMENT_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble /usr/bin/cmake /home/ros/ws_me462/src/ME462RobotControl/my_robot_cell/my_robot_cell_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ws_me462/install/my_robot_cell_moveit_config
+[0.305s] -- The C compiler identification is GNU 11.4.0
+[0.570s] -- The CXX compiler identification is GNU 11.4.0
+[0.595s] -- Detecting C compiler ABI info
+[0.929s] -- Detecting C compiler ABI info - done
+[0.943s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.944s] -- Detecting C compile features
+[0.944s] -- Detecting C compile features - done
+[0.951s] -- Detecting CXX compiler ABI info
+[1.258s] -- Detecting CXX compiler ABI info - done
+[1.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.291s] -- Detecting CXX compile features
+[1.295s] -- Detecting CXX compile features - done
+[1.307s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.860s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.137s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.504s] -- Configuring done
+[2.536s] -- Generating done
+[2.540s] -- Build files have been written to: /home/ros/ws_me462/build/my_robot_cell_moveit_config
+[2.557s] Invoked command in '/home/ros/ws_me462/build/my_robot_cell_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble /usr/bin/cmake /home/ros/ws_me462/src/ME462RobotControl/my_robot_cell/my_robot_cell_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ws_me462/install/my_robot_cell_moveit_config
+[2.559s] Invoking command in '/home/ros/ws_me462/build/my_robot_cell_moveit_config': AMENT_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/my_robot_cell_moveit_config -- -j4 -l4
+[2.694s] Invoked command in '/home/ros/ws_me462/build/my_robot_cell_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/my_robot_cell_moveit_config -- -j4 -l4
+[2.705s] Invoking command in '/home/ros/ws_me462/build/my_robot_cell_moveit_config': AMENT_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble /usr/bin/cmake --install /home/ros/ws_me462/build/my_robot_cell_moveit_config
+[2.733s] -- Install configuration: ""
+[2.733s] -- Execute custom install script
+[2.734s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/ament_index/resource_index/package_run_dependencies/my_robot_cell_moveit_config
+[2.758s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/ament_index/resource_index/parent_prefix_path/my_robot_cell_moveit_config
+[2.786s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/environment/ament_prefix_path.sh
+[2.826s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/environment/ament_prefix_path.dsv
+[2.848s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/environment/path.sh
+[2.872s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/environment/path.dsv
+[2.922s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/local_setup.bash
+[2.946s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/local_setup.sh
+[2.969s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/local_setup.zsh
+[3.026s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/local_setup.dsv
+[3.055s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/package.dsv
+[3.079s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/ament_index/resource_index/packages/my_robot_cell_moveit_config
+[3.127s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/cmake/my_robot_cell_moveit_configConfig.cmake
+[3.155s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/cmake/my_robot_cell_moveit_configConfig-version.cmake
+[3.183s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/package.xml
+[3.231s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/demo.launch.py
+[3.253s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/move_group.launch.py
+[3.272s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/moveit_rviz.launch.py
+[3.312s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/rsp.launch.py
+[3.359s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/servo.launch.py
+[3.379s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/setup_assistant.launch.py
+[3.429s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/spawn_controllers.launch.py
+[3.453s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[3.508s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/warehouse_db.launch.py
+[3.552s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/initial_positions.yaml
+[3.575s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/joint_limits.yaml
+[3.622s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/kinematics.yaml
+[3.645s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/moveit.rviz
+[3.672s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/moveit_controllers.yaml
+[3.711s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/my_robot_cell.ros2_control.xacro
+[3.746s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/my_robot_cell.srdf
+[3.775s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/my_robot_cell.urdf.xacro
+[3.832s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/ompl_planning.yaml
+[3.861s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/pilz_cartesian_limits.yaml
+[3.888s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/ros2_controllers.yaml
+[3.940s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/sensors_3d.yaml
+[3.971s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/servo.yaml
+[4.020s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/srdf/my_robot_cell.srdf
+[4.050s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/.setup_assistant
+[4.081s] Invoked command in '/home/ros/ws_me462/build/my_robot_cell_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble /usr/bin/cmake --install /home/ros/ws_me462/build/my_robot_cell_moveit_config

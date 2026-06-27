@@ -1,0 +1,4 @@
+[console_scripts]
+aruco_tracker_node = tutan_gripper.aruco_tracker_node:main
+gripper_driver_node = tutan_gripper.gripper_driver_node:main
+

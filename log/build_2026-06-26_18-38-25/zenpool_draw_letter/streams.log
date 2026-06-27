@@ -1,0 +1,6 @@
+[0.079s] Invoking command in '/home/ros/ws_me462/build/zenpool_draw_letter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/zenpool_draw_letter -- -j4 -l4
+[0.302s] [ 33%] Built target zenpool_draw_letter
+[0.416s] [ 66%] Built target zenpool_teleop_servo
+[0.494s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/zenpool_draw_servo.dir/all] Interrupt
+[0.495s] gmake: *** [Makefile:146: all] Interrupt
+[0.518s] Invoked command in '/home/ros/ws_me462/build/zenpool_draw_letter' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/zenpool_draw_letter -- -j4 -l4

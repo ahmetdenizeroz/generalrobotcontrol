@@ -1,0 +1,18 @@
+[2.117s] Invoking command in '/home/ros/ws_me462/build/tutan_gripper': PYTHONPATH=/home/ros/ws_me462/build/tutan_gripper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros/ws_me462/build/tutan_gripper/build --no-deps symlink_data
+[2.569s] running develop
+[2.774s] running egg_info
+[2.776s] writing tutan_gripper.egg-info/PKG-INFO
+[2.788s] writing dependency_links to tutan_gripper.egg-info/dependency_links.txt
+[2.789s] writing entry points to tutan_gripper.egg-info/entry_points.txt
+[2.790s] writing requirements to tutan_gripper.egg-info/requires.txt
+[2.791s] writing top-level names to tutan_gripper.egg-info/top_level.txt
+[2.794s] reading manifest file 'tutan_gripper.egg-info/SOURCES.txt'
+[2.796s] writing manifest file 'tutan_gripper.egg-info/SOURCES.txt'
+[2.800s] running build_ext
+[2.802s] Creating /home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages/tutan-gripper.egg-link (link to .)
+[2.806s] Installing aruco_tracker_node script to /home/ros/ws_me462/install/tutan_gripper/lib/tutan_gripper
+[2.808s] Installing gripper_driver_node script to /home/ros/ws_me462/install/tutan_gripper/lib/tutan_gripper
+[2.813s] 
+[2.813s] Installed /home/ros/ws_me462/build/tutan_gripper
+[2.813s] running symlink_data
+[2.914s] Invoked command in '/home/ros/ws_me462/build/tutan_gripper' returned '0': PYTHONPATH=/home/ros/ws_me462/build/tutan_gripper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros/ws_me462/build/tutan_gripper/build --no-deps symlink_data

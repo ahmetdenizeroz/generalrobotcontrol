@@ -1,0 +1,91 @@
+[0.724s] Invoking command in '/home/ros/ws_me462/build/zenpool_draw_letter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/zenpool_draw_letter -- -j4 -l4
+[1.169s] [ 33%] Built target zenpool_teleop_servo
+[1.190s] [ 66%] Built target zenpool_draw_servo
+[1.225s] [ 83%] [32mBuilding CXX object CMakeFiles/zenpool_draw_letter.dir/src/zenpool_draw_letter.cpp.o[0m
+[18.021s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:109:49:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.021s]   109 |                   const rclcpp::Logger& logger, [01;35m[Kauto[m[K& draw_traj, auto& mvt, auto& prompt, const std::string& label) {
+[18.022s]       |                                                 [01;35m[K^~~~[m[K
+[18.022s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:109:66:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.022s]   109 |                   const rclcpp::Logger& logger, auto& draw_traj, [01;35m[Kauto[m[K& mvt, auto& prompt, const std::string& label) {
+[18.022s]       |                                                                  [01;35m[K^~~~[m[K
+[18.022s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:109:77:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.022s]   109 |                   const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, [01;35m[Kauto[m[K& prompt, const std::string& label) {
+[18.022s]       |                                                                             [01;35m[K^~~~[m[K
+[18.023s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:132:62:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.023s]   132 |                                const rclcpp::Logger& logger, [01;35m[Kauto[m[K& draw_traj, auto& mvt, auto& prompt,
+[18.023s]       |                                                              [01;35m[K^~~~[m[K
+[18.023s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:132:79:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.023s]   132 |                                const rclcpp::Logger& logger, auto& draw_traj, [01;35m[Kauto[m[K& mvt, auto& prompt,
+[18.023s]       |                                                                               [01;35m[K^~~~[m[K
+[18.023s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:132:90:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.023s]   132 |                                const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, [01;35m[Kauto[m[K& prompt,
+[18.023s]       |                                                                                          [01;35m[K^~~~[m[K
+[18.023s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:164:53:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.023s]   164 |                       const rclcpp::Logger& logger, [01;35m[Kauto[m[K& draw_traj, auto& mvt, auto& prompt,
+[18.024s]       |                                                     [01;35m[K^~~~[m[K
+[18.024s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:164:70:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.024s]   164 |                       const rclcpp::Logger& logger, auto& draw_traj, [01;35m[Kauto[m[K& mvt, auto& prompt,
+[18.024s]       |                                                                      [01;35m[K^~~~[m[K
+[18.024s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:164:81:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.024s]   164 |                       const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, [01;35m[Kauto[m[K& prompt,
+[18.024s]       |                                                                                 [01;35m[K^~~~[m[K
+[18.038s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:187:49:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.038s]   187 |                   const rclcpp::Logger& logger, [01;35m[Kauto[m[K& draw_traj, auto& mvt, auto& prompt, const std::string& label) {
+[18.038s]       |                                                 [01;35m[K^~~~[m[K
+[18.038s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:187:66:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.039s]   187 |                   const rclcpp::Logger& logger, auto& draw_traj, [01;35m[Kauto[m[K& mvt, auto& prompt, const std::string& label) {
+[18.039s]       |                                                                  [01;35m[K^~~~[m[K
+[18.039s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:187:77:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.039s]   187 |                   const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, [01;35m[Kauto[m[K& prompt, const std::string& label) {
+[18.039s]       |                                                                             [01;35m[K^~~~[m[K
+[18.039s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:209:54:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.039s]   209 |                        const rclcpp::Logger& logger, [01;35m[Kauto[m[K& draw_traj, auto& mvt, auto& prompt,
+[18.039s]       |                                                      [01;35m[K^~~~[m[K
+[18.039s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:209:71:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.039s]   209 |                        const rclcpp::Logger& logger, auto& draw_traj, [01;35m[Kauto[m[K& mvt, auto& prompt,
+[18.039s]       |                                                                       [01;35m[K^~~~[m[K
+[18.039s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:209:82:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.039s]   209 |                        const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, [01;35m[Kauto[m[K& prompt,
+[18.040s]       |                                                                                  [01;35m[K^~~~[m[K
+[18.071s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:271:55:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.071s]   271 |                         const rclcpp::Logger& logger, [01;35m[Kauto[m[K& draw_traj, auto& mvt, auto& prompt,
+[18.072s]       |                                                       [01;35m[K^~~~[m[K
+[18.072s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:271:72:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.072s]   271 |                         const rclcpp::Logger& logger, auto& draw_traj, [01;35m[Kauto[m[K& mvt, auto& prompt,
+[18.072s]       |                                                                        [01;35m[K^~~~[m[K
+[18.072s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:271:83:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[18.072s]   271 |                         const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, [01;35m[Kauto[m[K& prompt,
+[18.073s]       |                                                                                   [01;35m[K^~~~[m[K
+[18.883s] /home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp: In instantiation of ‘[01m[Kbool executeNamed(moveit::planning_interface::MoveGroupInterface&, const string&, const rclcpp::Logger&, auto:49&, auto:50&, auto:51&, const string&) [with auto:49 = const main(int, char**)::<lambda(auto:59)>; auto:50 = moveit_visual_tools::MoveItVisualTools; auto:51 = const main(int, char**)::<lambda(auto:58)>; std::string = std::__cxx11::basic_string<char>][m[K’:
+[18.883s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:449:15:[m[K   required from here
+[18.883s] [01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:187:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klogger[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[18.884s]   187 |                   [01;35m[Kconst rclcpp::Logger& logger[m[K, auto& draw_traj, auto& mvt, auto& prompt, const std::string& label) {
+[18.884s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[28.328s] [100%] [32m[1mLinking CXX executable zenpool_draw_letter[0m
+[31.203s] [100%] Built target zenpool_draw_letter
+[31.242s] Invoked command in '/home/ros/ws_me462/build/zenpool_draw_letter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/zenpool_draw_letter -- -j4 -l4
+[31.248s] Invoking command in '/home/ros/ws_me462/build/zenpool_draw_letter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble /usr/bin/cmake --install /home/ros/ws_me462/build/zenpool_draw_letter
+[31.265s] -- Install configuration: ""
+[31.266s] -- Execute custom install script
+[31.267s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/zenpool_draw_letter
+[31.267s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/zenpool_draw_servo
+[31.268s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/zenpool_teleop_servo
+[31.268s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/face_tracker_servo.py
+[31.269s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/aruco_tracker_servo.py
+[31.269s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/launch/zenpool_draw.launch.py
+[31.269s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/ament_index/resource_index/package_run_dependencies/zenpool_draw_letter
+[31.270s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/ament_index/resource_index/parent_prefix_path/zenpool_draw_letter
+[31.270s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/ament_prefix_path.sh
+[31.270s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/ament_prefix_path.dsv
+[31.270s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/path.sh
+[31.271s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/path.dsv
+[31.271s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.bash
+[31.271s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.sh
+[31.271s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.zsh
+[31.271s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.dsv
+[31.271s] -- Symlinking: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/package.dsv
+[31.289s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/ament_index/resource_index/packages/zenpool_draw_letter
+[31.289s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/cmake/zenpool_draw_letterConfig.cmake
+[31.289s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/cmake/zenpool_draw_letterConfig-version.cmake
+[31.289s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/package.xml
+[31.294s] Invoked command in '/home/ros/ws_me462/build/zenpool_draw_letter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble /usr/bin/cmake --install /home/ros/ws_me462/build/zenpool_draw_letter

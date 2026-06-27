@@ -1,0 +1,59 @@
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:109:49:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  109 |                   const rclcpp::Logger& logger, [01;35m[Kauto[m[K& draw_traj, auto& mvt, auto& prompt, const std::string& label) {
+      |                                                 [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:109:66:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  109 |                   const rclcpp::Logger& logger, auto& draw_traj, [01;35m[Kauto[m[K& mvt, auto& prompt, const std::string& label) {
+      |                                                                  [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:109:77:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  109 |                   const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, [01;35m[Kauto[m[K& prompt, const std::string& label) {
+      |                                                                             [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:130:62:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  130 |                                const rclcpp::Logger& logger, [01;35m[Kauto[m[K& draw_traj, auto& mvt, auto& prompt,
+      |                                                              [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:130:79:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  130 |                                const rclcpp::Logger& logger, auto& draw_traj, [01;35m[Kauto[m[K& mvt, auto& prompt,
+      |                                                                               [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:130:90:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  130 |                                const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, [01;35m[Kauto[m[K& prompt,
+      |                                                                                          [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:162:53:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  162 |                       const rclcpp::Logger& logger, [01;35m[Kauto[m[K& draw_traj, auto& mvt, auto& prompt,
+      |                                                     [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:162:70:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  162 |                       const rclcpp::Logger& logger, auto& draw_traj, [01;35m[Kauto[m[K& mvt, auto& prompt,
+      |                                                                      [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:162:81:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  162 |                       const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, [01;35m[Kauto[m[K& prompt,
+      |                                                                                 [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:185:49:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  185 |                   const rclcpp::Logger& logger, [01;35m[Kauto[m[K& draw_traj, auto& mvt, auto& prompt, const std::string& label) {
+      |                                                 [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:185:66:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  185 |                   const rclcpp::Logger& logger, auto& draw_traj, [01;35m[Kauto[m[K& mvt, auto& prompt, const std::string& label) {
+      |                                                                  [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:185:77:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  185 |                   const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, [01;35m[Kauto[m[K& prompt, const std::string& label) {
+      |                                                                             [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:205:54:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  205 |                        const rclcpp::Logger& logger, [01;35m[Kauto[m[K& draw_traj, auto& mvt, auto& prompt,
+      |                                                      [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:205:71:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  205 |                        const rclcpp::Logger& logger, auto& draw_traj, [01;35m[Kauto[m[K& mvt, auto& prompt,
+      |                                                                       [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:205:82:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  205 |                        const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, [01;35m[Kauto[m[K& prompt,
+      |                                                                                  [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:267:55:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  267 |                         const rclcpp::Logger& logger, [01;35m[Kauto[m[K& draw_traj, auto& mvt, auto& prompt,
+      |                                                       [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:267:72:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  267 |                         const rclcpp::Logger& logger, auto& draw_traj, [01;35m[Kauto[m[K& mvt, auto& prompt,
+      |                                                                        [01;35m[K^~~~[m[K
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:267:83:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  267 |                         const rclcpp::Logger& logger, auto& draw_traj, auto& mvt, [01;35m[Kauto[m[K& prompt,
+      |                                                                                   [01;35m[K^~~~[m[K
+/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp: In instantiation of ‘[01m[Kbool executeNamed(moveit::planning_interface::MoveGroupInterface&, const string&, const rclcpp::Logger&, auto:49&, auto:50&, auto:51&, const string&) [with auto:49 = const main(int, char**)::<lambda(auto:59)>; auto:50 = moveit_visual_tools::MoveItVisualTools; auto:51 = const main(int, char**)::<lambda(auto:58)>; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:445:15:[m[K   required from here
+[01m[K/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/src/zenpool_draw_letter.cpp:185:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klogger[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  185 |                   [01;35m[Kconst rclcpp::Logger& logger[m[K, auto& draw_traj, auto& mvt, auto& prompt, const std::string& label) {
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
