@@ -318,8 +318,8 @@ message(STATUS "Execute custom install script")
 # install("TARGETS" "zenpool_draw_letter" "zenpool_draw_servo" "zenpool_teleop_servo" "DESTINATION" "lib/zenpool_draw_letter")
 include("/home/ros/ws_me462/build/zenpool_draw_letter/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(PROGRAMS "scripts/face_tracker_servo.py" "scripts/aruco_tracker_servo.py" "scripts/custom_dashboard.py" "DESTINATION" "lib/zenpool_draw_letter")
-ament_cmake_symlink_install_programs("/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter" PROGRAMS "scripts/face_tracker_servo.py" "scripts/aruco_tracker_servo.py" "scripts/custom_dashboard.py" "DESTINATION" "lib/zenpool_draw_letter")
+# install(PROGRAMS "scripts/face_tracker_servo.py" "scripts/aruco_tracker_servo.py" "scripts/custom_dashboard.py" "scripts/tool_manager.py" "scripts/take_one.py" "scripts/drop_one.py" "scripts/take_two.py" "scripts/drop_two.py" "scripts/take_three.py" "scripts/drop_three.py" "scripts/full_cleaning.py" "DESTINATION" "lib/zenpool_draw_letter")
+ament_cmake_symlink_install_programs("/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter" PROGRAMS "scripts/face_tracker_servo.py" "scripts/aruco_tracker_servo.py" "scripts/custom_dashboard.py" "scripts/tool_manager.py" "scripts/take_one.py" "scripts/drop_one.py" "scripts/take_two.py" "scripts/drop_two.py" "scripts/take_three.py" "scripts/drop_three.py" "scripts/full_cleaning.py" "DESTINATION" "lib/zenpool_draw_letter")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/zenpool_draw_letter")
 ament_cmake_symlink_install_directory("/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter" DIRECTORY "launch" "DESTINATION" "share/zenpool_draw_letter")

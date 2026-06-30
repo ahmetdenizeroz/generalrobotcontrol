@@ -123,8 +123,17 @@ Open a new Terminal (Docker) to send commands:
   ros2 topic pub --once /dashboard/move_joints std_msgs/msg/Float32MultiArray "{data: [-137.0, -140.0, -50.0, -80.0, 90.0, 178.0]}"
 
 - **Relative Cartesian Translation (cm):**
-  # X/Y move relative to the physically mounted table edges
+  # X/Y move relative to the robot's current position, aligned with table edges
   ros2 topic pub --once /dashboard/move_cartesian geometry_msgs/msg/Vector3 "{x: 10.0, y: 0.0, z: -5.0}"
+
+- **Absolute Cartesian Translation (cm):**
+  # Move to an exact X/Y/Z coordinate (in cm) on the table, aligned with table edges
+  ros2 topic pub --once /dashboard/move_absolute_cartesian geometry_msgs/msg/Vector3 "{x: 29.0, y: 61.7, z: 25.0}"
+  
+- **Manhattan Cartesian Translation (Smart Collision Dodging):**
+  # Same as normal translation, but if an obstacle is detected, it automatically calculates an L-shaped hover path over the obstacle.
+  ros2 topic pub --once /dashboard/move_manhattan_cartesian geometry_msgs/msg/Vector3 "{x: 10.0, y: 0.0, z: 0.0}"
+  ros2 topic pub --once /dashboard/move_absolute_manhattan geometry_msgs/msg/Vector3 "{x: 29.0, y: 61.7, z: 25.0}"
 
 - **Base Plane Parallel Re-orientation (Degrees):**
   # x=Pitch, y=Roll, z=Yaw. 
@@ -138,6 +147,29 @@ Open a new Terminal (Docker) to send commands:
 
   ros2 topic echo --once /joint_states
 
+
+---------------------------------------------------------
+OPTION E: Dynamic Tool Manager (Spawning & Attaching)
+---------------------------------------------------------
+Run this node in the background to automatically parse CAD files, spawn tools into the toolbox, and handle dynamic attaching/detaching for MoveIt collision math.
+
+  # Terminal 5 (Docker): Start the Tool Manager
+  cd ~/ws_me462
+  source install/local_setup.sh
+  ros2 run zenpool_draw_letter tool_manager.py
+
+*Publishing Commands:*
+To safely pick up or drop a tool, first move the robot exactly into the toolbox slot, wait for it to stop, and then send one of these commands:
+
+- **Pick up / Attach Tool:** (Deletes from toolbox, glues to robot tip)
+  ros2 topic pub --once /tool_manager/command std_msgs/msg/String "{data: 'attach tutankhamun'}"
+  ros2 topic pub --once /tool_manager/command std_msgs/msg/String "{data: 'attach cleaner'}"
+  ros2 topic pub --once /tool_manager/command std_msgs/msg/String "{data: 'attach pen'}"
+
+- **Drop / Detach Tool:** (Unglues from robot tip, drops into toolbox slot)
+  ros2 topic pub --once /tool_manager/command std_msgs/msg/String "{data: 'detach tutankhamun'}"
+  ros2 topic pub --once /tool_manager/command std_msgs/msg/String "{data: 'detach cleaner'}"
+  ros2 topic pub --once /tool_manager/command std_msgs/msg/String "{data: 'detach pen'}"
 
 ---------------------------------------------------------
 TROUBLESHOOTING & NETWORKING:

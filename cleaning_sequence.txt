@@ -1,0 +1,49 @@
+go to following pose with collusion check!
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- 0.07405982166528702
+- -2.548169275323385
+- -0.7227350473403931
+- 1.5707674026489258
+- 1.6449581384658813
+- -1.4414236408523102
+
+move 25 cm in -z direction {x: -55.0, y: 65.0, z: 0.0}
+
+move 110 cm in +x direction {x: +55.0, y: 65.0, z: 0.0}
+rotate the end effector to -135 degrees wrt to z axis (ros2 topic pub --once /dashboard/reorient geometry_msgs/msg/Vector3 "{x: 0.0, y: 0.0, z: -135.0}")
+move 5 cm in -y direction {x: +55.0, y: 60.0, z: 0.0}
+
+move 110 cm in -x direction {x: -55.0, y: 60.0, z: 0.0}
+rotate the end effector to -45 degrees wrt to z axis (ros2 topic pub --once /dashboard/reorient geometry_msgs/msg/Vector3 "{x: 0.0, y: 0.0, z: -45.0}")
+move 5 cm in -y direction {x: -55.0, y: 55.0, z: 0.0}
+
+move 110 cm in +x direction {x: +55.0, y: 55.0, z: 0.0}
+rotate the end effector to -135 degrees wrt to z axis (ros2 topic pub --once /dashboard/reorient geometry_msgs/msg/Vector3 "{x: 0.0, y: 0.0, z: -135.0}")
+move 5 cm in -y direction {x: +55.0, y: 50.0, z: 0.0}
+
+move 110 cm in -x direction {x: -55.0, y: 50.0, z: 0.0}
+rotate the end effector to -45 degrees wrt to z axis (ros2 topic pub --once /dashboard/reorient geometry_msgs/msg/Vector3 "{x: 0.0, y: 0.0, z: -45.0}")
+move 5 cm in -y direction {x: -55.0, y: 45.0, z: 0.0}
+
+move 110 cm in +x direction {x: +55.0, y: 45.0, z: 0.0}
+rotate the end effector to -135 degrees wrt to z axis (ros2 topic pub --once /dashboard/reorient geometry_msgs/msg/Vector3 "{x: 0.0, y: 0.0, z: -135.0}")
+move 5 cm in -y direction {x: +55.0, y: 40.0, z: 0.0}   
+
+move 110 cm in -x direction {x: -55.0, y: 40.0, z: 0.0}
+rotate the end effector to -45 degrees wrt to z axis (ros2 topic pub --once /dashboard/reorient geometry_msgs/msg/Vector3 "{x: 0.0, y: 0.0, z: -45.0}")
+move 5 cm in -y direction {x: -55.0, y: 35.0, z: 0.0}
+
+move 110 cm in +x direction {x: +55.0, y: 35.0, z: 0.0}
+rotate the end effector to -135 degrees wrt to z axis (ros2 topic pub --once /dashboard/reorient geometry_msgs/msg/Vector3 "{x: 0.0, y: 0.0, z: -135.0}")
+move 5 cm in -y direction {x: +55.0, y: 30.0, z: 0.0}
+
+move 110 cm in -x direction {x: -55.0, y: 30.0, z: 0.0}
+
+move 25  in +z direction {x: -55.0, y: 30.0, z: 25.0}

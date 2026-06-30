@@ -1,0 +1,1 @@
+/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/scripts/full_cleaning.py

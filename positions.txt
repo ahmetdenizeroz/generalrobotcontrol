@@ -1,0 +1,96 @@
+tool 1:
+- Translation: [0.539, 0.319, 0.259]
+- Rotation: in Quaternion (xyzw) [0.382, 0.924, 0.000, 0.000]
+- Rotation: in RPY (radian) [3.141, 0.000, 2.357]
+- Rotation: in RPY (degree) [179.972, 0.003, 135.024]
+- Matrix:
+ -0.707  0.707  0.000  0.539
+  0.707  0.707  0.000  0.319
+ -0.000  0.000 -1.000  0.259
+  0.000  0.000  0.000  1.000
+
+tool 2:
+- Translation: [0.370, 0.515, 0.263]
+- Rotation: in Quaternion (xyzw) [0.383, 0.924, 0.000, 0.000]
+- Rotation: in RPY (radian) [3.141, -0.000, 2.356]
+- Rotation: in RPY (degree) [179.975, -0.003, 135.009]
+- Matrix:
+ -0.707  0.707  0.000  0.370
+  0.707  0.707  0.000  0.515
+  0.000  0.000 -1.000  0.263
+  0.000  0.000  0.000  1.000
+
+tool2 take:
+name:                
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint   
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- -2.0331299940692347
+- -2.2137681446471156
+- -1.2919307947158813
+- 1.5706932544708252
+- 3.464433193206787   
+- -1.2062910360148926
+
+tool 2 drop:
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- -1.8669331709491175
+- -1.6779171429076136
+- -2.0657098293304443
+- 1.5706557035446167
+- 3.6306023597717285
+- -0.9683686655810853
+
+TOOL 3:
+- Translation: [0.290, 0.604, 0.265]
+- Rotation: in Quaternion (xyzw) [0.382, 0.924, 0.000, 0.000]
+- Rotation: in RPY (radian) [3.141, -0.000, 2.357]
+- Rotation: in RPY (degree) [179.960, -0.009, 135.026]
+- Matrix:
+ -0.707  0.707  0.000  0.290
+  0.707  0.707  0.001  0.604
+  0.000  0.001 -1.000  0.265
+  0.000  0.000  0.000  1.000
+
+tool 3 take:
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- -1.8861225287066858
+- -2.2894236050047816
+- -1.1587438583374023
+- 1.5706090927124023
+- 3.6113338470458984
+- -1.2635646027377625
+
+tool 3 drop:
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- -1.6701200644122522
+- -1.7745048008360804
+- -1.946237325668335
+- 1.5705393552780151
+- 3.8273630142211914
+- -0.9909945887378235
