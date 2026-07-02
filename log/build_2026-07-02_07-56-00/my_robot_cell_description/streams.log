@@ -1,0 +1,31 @@
+[0.252s] Invoking command in '/home/ros/ws_me462/build/my_robot_cell_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/robot_head_ros:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/my_robot_cell_description -- -j4 -l4
+[1.954s] Invoked command in '/home/ros/ws_me462/build/my_robot_cell_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/robot_head_ros:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/my_robot_cell_description -- -j4 -l4
+[1.997s] Invoking command in '/home/ros/ws_me462/build/my_robot_cell_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/robot_head_ros:/opt/ros/humble /usr/bin/cmake --install /home/ros/ws_me462/build/my_robot_cell_description
+[2.070s] -- Install configuration: ""
+[2.076s] -- Execute custom install script
+[2.081s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/launch/view_robot.launch.py
+[2.086s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/meshes/end_effectors/CleanerTool.stl
+[2.086s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/meshes/end_effectors/PenTool.stl
+[2.099s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/meshes/end_effectors/tutan-khamun.stl
+[2.105s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/meshes/environment/ZenPoolWithToolBox.stl
+[2.107s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/meshes/environment/ZenPoolWithToolBoxCollision.stl
+[2.107s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/meshes/tool_changer/ToolChangerArmSide.stl
+[2.108s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/rviz/urdf.rviz
+[2.110s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/urdf/my_robot_cell.urdf.xacro
+[2.111s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/urdf/my_robot_cell_macro.xacro
+[2.113s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/ament_index/resource_index/package_run_dependencies/my_robot_cell_description
+[2.118s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/ament_index/resource_index/parent_prefix_path/my_robot_cell_description
+[2.125s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/environment/ament_prefix_path.sh
+[2.126s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/environment/ament_prefix_path.dsv
+[2.132s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/environment/path.sh
+[2.135s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/environment/path.dsv
+[2.139s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/local_setup.bash
+[2.140s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/local_setup.sh
+[2.140s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/local_setup.zsh
+[2.147s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/local_setup.dsv
+[2.154s] -- Symlinking: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/package.dsv
+[2.195s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/ament_index/resource_index/packages/my_robot_cell_description
+[2.196s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/cmake/my_robot_cell_descriptionConfig.cmake
+[2.196s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/cmake/my_robot_cell_descriptionConfig-version.cmake
+[2.196s] -- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/package.xml
+[2.223s] Invoked command in '/home/ros/ws_me462/build/my_robot_cell_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/robot_head_ros:/opt/ros/humble /usr/bin/cmake --install /home/ros/ws_me462/build/my_robot_cell_description

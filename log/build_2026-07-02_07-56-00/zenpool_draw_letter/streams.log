@@ -1,0 +1,43 @@
+[1.807s] Invoking command in '/home/ros/ws_me462/build/zenpool_draw_letter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/robot_head_ros:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/zenpool_draw_letter -- -j4 -l4
+[3.107s] [ 33%] Built target zenpool_draw_letter
+[3.379s] [ 66%] Built target zenpool_teleop_servo
+[3.680s] [100%] Built target zenpool_draw_servo
+[3.759s] Invoked command in '/home/ros/ws_me462/build/zenpool_draw_letter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/robot_head_ros:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/zenpool_draw_letter -- -j4 -l4
+[3.764s] Invoking command in '/home/ros/ws_me462/build/zenpool_draw_letter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/robot_head_ros:/opt/ros/humble /usr/bin/cmake --install /home/ros/ws_me462/build/zenpool_draw_letter
+[3.815s] -- Install configuration: ""
+[3.819s] -- Execute custom install script
+[3.821s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/zenpool_draw_letter
+[3.822s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/zenpool_draw_servo
+[3.822s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/zenpool_teleop_servo
+[3.822s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/face_tracker_servo.py
+[3.823s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/aruco_tracker_servo.py
+[3.823s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/custom_dashboard.py
+[3.823s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/tool_manager.py
+[3.824s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/take_one.py
+[3.824s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/drop_one.py
+[3.826s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/take_two.py
+[3.826s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/drop_two.py
+[3.827s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/take_three.py
+[3.827s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/drop_three.py
+[3.827s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/full_cleaning.py
+[3.828s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/drawing_job_executor.py
+[3.828s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/active_grippering_sequence.py
+[3.828s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/take_papis.py
+[3.829s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/drop_papis.py
+[3.829s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/launch/zenpool_draw.launch.py
+[3.831s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/ament_index/resource_index/package_run_dependencies/zenpool_draw_letter
+[3.832s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/ament_index/resource_index/parent_prefix_path/zenpool_draw_letter
+[3.833s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/ament_prefix_path.sh
+[3.834s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/ament_prefix_path.dsv
+[3.836s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/path.sh
+[3.836s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/path.dsv
+[3.838s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.bash
+[3.838s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.sh
+[3.839s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.zsh
+[3.841s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.dsv
+[3.843s] -- Symlinking: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/package.dsv
+[3.902s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/ament_index/resource_index/packages/zenpool_draw_letter
+[3.908s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/cmake/zenpool_draw_letterConfig.cmake
+[3.911s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/cmake/zenpool_draw_letterConfig-version.cmake
+[3.912s] -- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/package.xml
+[3.936s] Invoked command in '/home/ros/ws_me462/build/zenpool_draw_letter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/robot_head_ros:/opt/ros/humble /usr/bin/cmake --install /home/ros/ws_me462/build/zenpool_draw_letter

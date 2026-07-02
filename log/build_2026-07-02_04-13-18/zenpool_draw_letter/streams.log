@@ -1,0 +1,2 @@
+[1.927s] Invoking command in '/home/ros/ws_me462/build/zenpool_draw_letter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble /usr/bin/cmake --build /home/ros/ws_me462/build/zenpool_draw_letter -- -j4 -l4
+[2.066s] gmake: *** [Makefile:349: cmake_check_build_system] Interrupt

@@ -1,0 +1,3 @@
+[console_scripts]
+robot_head_node = robot_head_ros.robot_head_node:main
+

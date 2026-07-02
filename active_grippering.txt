@@ -1,0 +1,113 @@
+runtake_three.py sequence
+
+go tothe position of:
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- -1.405163590108053
+- -1.438101978307106
+- -2.298321008682251
+- 1.5702581405639648
+- 4.092392921447754
+- -0.9752960962108155
+
+
+go to the position of:
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- -1.4051998297320765
+- -1.4380645018867035
+- -2.2984459400177
+- -1.5702581405639648
+- 1.5663607120513916
+- -0.9753621381572266
+
+
+
+go to this coordinates by solving cartesian!
+- Translation: [0.070, 0.385, 0.161]
+
+
+go to this position
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- -2.376023594533102
+- -2.4670406780638636
+- -2.4084599018096924
+- -1.5664861837970179
+- 1.5624985694885254
+- 0.16364042341198726
+
+
+go to thi coordinates by solving cartesian
+- Translation: [0.343, 0.144, 0.092]
+
+
+GO TO THIS POSITION 
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- -2.3761847654925745
+- -2.7163874111571253
+- -2.3565967082977295
+- -1.5532806555377405
+- 1.5578625202178955
+- -1.2143813234618683
+
+send open to tutankhamun
+ros2 topic pub --once /gripper/command std_msgs/msg/Float32 "{data: 0.0}"
+
+go to following position
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- -2.389397923146383
+- -2.420762678185934
+- -1.8694475889205933
+- -1.6041844526873987
+- 1.5708009004592896
+- -1.993124624291891
+
+send grasp command to tutankhamun
+ros2 topic pub --once /gripper/grasp std_msgs/msg/Bool "{data: true}"
+
+
+move 20 cm in -y direction cartesian
+
+move 20 cm in -x direction cartesian
+
+move 80 cm in y direction cartesian
+
+move 30 cm in +z direction cartesian
+
+run take_one.py sequence
+
+go to absolute position of 
+x: 0 y: 40 z: 30

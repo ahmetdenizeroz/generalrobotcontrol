@@ -1,0 +1,45 @@
+move this position (joint)
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- 1.3500124216079712
+- -1.4983359810760994
+- -1.5276741981506348
+- -1.570700470601217
+- 2.5765140056610107
+- -1.6860372028746546
+
+
+move this position(cartesian)
+Translation: [-0.459, -0.133, 0.231] (wrt pool_actual frame)
+
+
+move this position(cartesian)
+Translation: [-0.759, -0.133, 0.231] (wrt pool_actual frame)
+
+move this position(cartesian)
+- Translation: [-0.759, -0.133, 0.111] (wrt pool_actual frame)
+
+move this position (cartesian)
+Translation: [-0.459, -0.133, 0.111] (wrt pool_actual frame)
+
+move to thispose (joint)
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- -0.08898955980409795
+- -1.5647886556437989
+- -1.9755737781524658
+- 1.57073175907135
+- 2.267174243927002
+- -1.1719863277724762
+

@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.000873] (my_robot_cell_description) JobQueued: {'identifier': 'my_robot_cell_description', 'dependencies': OrderedDict()}
+[0.001880] (tutan_gripper) JobQueued: {'identifier': 'tutan_gripper', 'dependencies': OrderedDict()}
+[0.002616] (zenpool_draw_letter) JobQueued: {'identifier': 'zenpool_draw_letter', 'dependencies': OrderedDict()}
+[0.003736] (my_robot_cell_control) JobQueued: {'identifier': 'my_robot_cell_control', 'dependencies': OrderedDict([('my_robot_cell_description', '/home/ros/ws_me462/install/my_robot_cell_description')])}
+[0.004480] (my_robot_cell_moveit_config) JobQueued: {'identifier': 'my_robot_cell_moveit_config', 'dependencies': OrderedDict([('my_robot_cell_description', '/home/ros/ws_me462/install/my_robot_cell_description')])}
+[0.005222] (my_robot_cell_description) JobStarted: {'identifier': 'my_robot_cell_description'}
+[0.044012] (tutan_gripper) JobStarted: {'identifier': 'tutan_gripper'}
+[0.071883] (zenpool_draw_letter) JobStarted: {'identifier': 'zenpool_draw_letter'}
+[0.100358] (-) TimerEvent: {}
+[0.104169] (my_robot_cell_description) JobProgress: {'identifier': 'my_robot_cell_description', 'progress': 'cmake'}
+[0.108382] (my_robot_cell_description) JobProgress: {'identifier': 'my_robot_cell_description', 'progress': 'build'}
+[0.108601] (my_robot_cell_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ws_me462/build/my_robot_cell_description', '--', '-j4', '-l4'], 'cwd': '/home/ros/ws_me462/build/my_robot_cell_description', 'env': OrderedDict([('HOSTNAME', 'deniz-pi500'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros/ws_me462/install:/home/ros/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble'), ('PWD', '/home/ros/ws_me462/build/my_robot_cell_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros/ws_me462/build/tutan_gripper:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble')]), 'shell': False}
+[0.201386] (-) TimerEvent: {}
+[0.301995] (-) TimerEvent: {}
+[0.402616] (-) TimerEvent: {}
+[0.503015] (-) TimerEvent: {}
+[0.603415] (-) TimerEvent: {}
+[0.703842] (-) TimerEvent: {}
+[0.758954] (zenpool_draw_letter) JobProgress: {'identifier': 'zenpool_draw_letter', 'progress': 'cmake'}
+[0.761052] (zenpool_draw_letter) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros/ws_me462/install/zenpool_draw_letter'], 'cwd': '/home/ros/ws_me462/build/zenpool_draw_letter', 'env': OrderedDict([('HOSTNAME', 'deniz-pi500'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros/ws_me462/install:/home/ros/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble'), ('PWD', '/home/ros/ws_me462/build/zenpool_draw_letter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros/ws_me462/build/tutan_gripper:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble')]), 'shell': False}
+[0.765177] (my_robot_cell_description) CommandEnded: {'returncode': 0}
+[0.767278] (my_robot_cell_description) JobProgress: {'identifier': 'my_robot_cell_description', 'progress': 'install'}
+[0.786976] (my_robot_cell_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ws_me462/build/my_robot_cell_description'], 'cwd': '/home/ros/ws_me462/build/my_robot_cell_description', 'env': OrderedDict([('HOSTNAME', 'deniz-pi500'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros/ws_me462/install:/home/ros/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble'), ('PWD', '/home/ros/ws_me462/build/my_robot_cell_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros/ws_me462/build/tutan_gripper:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble')]), 'shell': False}
+[0.790396] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.831036] (-) TimerEvent: {}
+[0.847046] (my_robot_cell_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.862568] (my_robot_cell_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.863515] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/launch/view_robot.launch.py\n'}
+[0.863704] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/meshes/end_effectors/CleanerTool.stl\n'}
+[0.863834] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/meshes/end_effectors/PenTool.stl\n'}
+[0.863951] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/meshes/end_effectors/tutan-khamun.stl\n'}
+[0.864105] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/meshes/environment/ZenPoolWithToolBox.stl\n'}
+[0.864211] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/meshes/environment/ZenPoolWithToolBoxCollision.stl\n'}
+[0.868014] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/meshes/tool_changer/ToolChangerArmSide.stl\n'}
+[0.869581] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/rviz/urdf.rviz\n'}
+[0.869732] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/urdf/my_robot_cell.urdf.xacro\n'}
+[0.869835] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/urdf/my_robot_cell_macro.xacro\n'}
+[0.869925] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/ament_index/resource_index/package_run_dependencies/my_robot_cell_description\n'}
+[0.870009] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/ament_index/resource_index/parent_prefix_path/my_robot_cell_description\n'}
+[0.870141] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/environment/ament_prefix_path.sh\n'}
+[0.870262] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/environment/ament_prefix_path.dsv\n'}
+[0.870827] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/environment/path.sh\n'}
+[0.872143] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/environment/path.dsv\n'}
+[0.872821] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/local_setup.bash\n'}
+[0.873076] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/local_setup.sh\n'}
+[0.873165] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/local_setup.zsh\n'}
+[0.873261] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/local_setup.dsv\n'}
+[0.874377] (my_robot_cell_description) StdoutLine: {'line': b'-- Symlinking: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/package.dsv\n'}
+[0.905958] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/ament_index/resource_index/packages/my_robot_cell_description\n'}
+[0.909206] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/cmake/my_robot_cell_descriptionConfig.cmake\n'}
+[0.909816] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/cmake/my_robot_cell_descriptionConfig-version.cmake\n'}
+[0.909987] (my_robot_cell_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_description/share/my_robot_cell_description/package.xml\n'}
+[0.915709] (my_robot_cell_description) CommandEnded: {'returncode': 0}
+[0.931766] (-) TimerEvent: {}
+[0.999518] (my_robot_cell_description) JobEnded: {'identifier': 'my_robot_cell_description', 'rc': 0}
+[1.020034] (my_robot_cell_control) JobStarted: {'identifier': 'my_robot_cell_control'}
+[1.032029] (-) TimerEvent: {}
+[1.045640] (my_robot_cell_moveit_config) JobStarted: {'identifier': 'my_robot_cell_moveit_config'}
+[1.071271] (my_robot_cell_control) JobProgress: {'identifier': 'my_robot_cell_control', 'progress': 'cmake'}
+[1.076740] (my_robot_cell_control) JobProgress: {'identifier': 'my_robot_cell_control', 'progress': 'build'}
+[1.078067] (my_robot_cell_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ws_me462/build/my_robot_cell_control', '--', '-j4', '-l4'], 'cwd': '/home/ros/ws_me462/build/my_robot_cell_control', 'env': OrderedDict([('HOSTNAME', 'deniz-pi500'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros/ws_me462/install:/home/ros/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble'), ('PWD', '/home/ros/ws_me462/build/my_robot_cell_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros/ws_me462/build/tutan_gripper:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ws_me462/install/my_robot_cell_description:/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble')]), 'shell': False}
+[1.091224] (my_robot_cell_moveit_config) JobProgress: {'identifier': 'my_robot_cell_moveit_config', 'progress': 'cmake'}
+[1.098067] (my_robot_cell_moveit_config) JobProgress: {'identifier': 'my_robot_cell_moveit_config', 'progress': 'build'}
+[1.100018] (my_robot_cell_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ws_me462/build/my_robot_cell_moveit_config', '--', '-j4', '-l4'], 'cwd': '/home/ros/ws_me462/build/my_robot_cell_moveit_config', 'env': OrderedDict([('HOSTNAME', 'deniz-pi500'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros/ws_me462/install:/home/ros/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble'), ('PWD', '/home/ros/ws_me462/build/my_robot_cell_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros/ws_me462/build/tutan_gripper:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ws_me462/install/my_robot_cell_description:/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble')]), 'shell': False}
+[1.132404] (-) TimerEvent: {}
+[1.235407] (-) TimerEvent: {}
+[1.341222] (-) TimerEvent: {}
+[1.351658] (my_robot_cell_moveit_config) CommandEnded: {'returncode': 0}
+[1.358436] (my_robot_cell_moveit_config) JobProgress: {'identifier': 'my_robot_cell_moveit_config', 'progress': 'install'}
+[1.358699] (my_robot_cell_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ws_me462/build/my_robot_cell_moveit_config'], 'cwd': '/home/ros/ws_me462/build/my_robot_cell_moveit_config', 'env': OrderedDict([('HOSTNAME', 'deniz-pi500'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros/ws_me462/install:/home/ros/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble'), ('PWD', '/home/ros/ws_me462/build/my_robot_cell_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros/ws_me462/build/tutan_gripper:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ws_me462/install/my_robot_cell_description:/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble')]), 'shell': False}
+[1.424825] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.433606] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.434126] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/ament_index/resource_index/package_run_dependencies/my_robot_cell_moveit_config\n'}
+[1.439989] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/ament_index/resource_index/parent_prefix_path/my_robot_cell_moveit_config\n'}
+[1.440313] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/environment/ament_prefix_path.sh\n'}
+[1.442053] (-) TimerEvent: {}
+[1.446116] (zenpool_draw_letter) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.448576] (my_robot_cell_control) CommandEnded: {'returncode': 0}
+[1.459496] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/environment/ament_prefix_path.dsv\n'}
+[1.466479] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/environment/path.sh\n'}
+[1.466814] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/environment/path.dsv\n'}
+[1.467055] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/local_setup.bash\n'}
+[1.467234] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/local_setup.sh\n'}
+[1.467430] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/local_setup.zsh\n'}
+[1.467566] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/local_setup.dsv\n'}
+[1.467686] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/package.dsv\n'}
+[1.467804] (my_robot_cell_control) JobProgress: {'identifier': 'my_robot_cell_control', 'progress': 'install'}
+[1.470628] (my_robot_cell_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ws_me462/build/my_robot_cell_control'], 'cwd': '/home/ros/ws_me462/build/my_robot_cell_control', 'env': OrderedDict([('HOSTNAME', 'deniz-pi500'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros/ws_me462/install:/home/ros/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble'), ('PWD', '/home/ros/ws_me462/build/my_robot_cell_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros/ws_me462/build/tutan_gripper:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ws_me462/install/my_robot_cell_description:/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble')]), 'shell': False}
+[1.507516] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/ament_index/resource_index/packages/my_robot_cell_moveit_config\n'}
+[1.510345] (my_robot_cell_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.510963] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/cmake/my_robot_cell_moveit_configConfig.cmake\n'}
+[1.511160] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/cmake/my_robot_cell_moveit_configConfig-version.cmake\n'}
+[1.517521] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[1.525622] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/package.xml\n'}
+[1.531216] (my_robot_cell_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.534642] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/demo.launch.py\n'}
+[1.535143] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/move_group.launch.py\n'}
+[1.540349] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/launch/start_robot.launch.py\n'}
+[1.540740] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/moveit_rviz.launch.py\n'}
+[1.540990] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/rsp.launch.py\n'}
+[1.541098] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/servo.launch.py\n'}
+[1.541186] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/setup_assistant.launch.py\n'}
+[1.546155] (-) TimerEvent: {}
+[1.546994] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/config/my_robot_calibration.yaml\n'}
+[1.548742] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/config/ur5e/joint_limits.yaml\n'}
+[1.552528] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/config/ur5e/physical_parameters.yaml\n'}
+[1.562446] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/spawn_controllers.launch.py\n'}
+[1.562844] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/config/ur5e/visual_parameters.yaml\n'}
+[1.563058] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/urdf/my_robot_cell_controlled.urdf.xacro\n'}
+[1.563326] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[1.564029] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/launch/warehouse_db.launch.py\n'}
+[1.573201] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/initial_positions.yaml\n'}
+[1.577893] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/rviz/view_robot.rviz\n'}
+[1.586651] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/ament_index/resource_index/package_run_dependencies/my_robot_cell_control\n'}
+[1.588724] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/ament_index/resource_index/parent_prefix_path/my_robot_cell_control\n'}
+[1.590811] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/joint_limits.yaml\n'}
+[1.591140] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/kinematics.yaml\n'}
+[1.594504] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.594890] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/moveit.rviz\n'}
+[1.595066] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/moveit_controllers.yaml\n'}
+[1.596500] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/environment/ament_prefix_path.sh\n'}
+[1.596768] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/environment/ament_prefix_path.dsv\n'}
+[1.596877] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/my_robot_cell.ros2_control.xacro\n'}
+[1.597004] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/my_robot_cell.srdf\n'}
+[1.597105] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/environment/path.sh\n'}
+[1.598370] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/environment/path.dsv\n'}
+[1.599175] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/my_robot_cell.urdf.xacro\n'}
+[1.600375] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/ompl_planning.yaml\n'}
+[1.600594] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/local_setup.bash\n'}
+[1.600742] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[1.600842] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/ros2_controllers.yaml\n'}
+[1.600948] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/sensors_3d.yaml\n'}
+[1.601085] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/config/servo.yaml\n'}
+[1.601202] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/local_setup.sh\n'}
+[1.605740] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/local_setup.zsh\n'}
+[1.605954] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/srdf/my_robot_cell.srdf\n'}
+[1.606114] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/local_setup.dsv\n'}
+[1.606365] (my_robot_cell_control) StdoutLine: {'line': b'-- Symlinking: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/package.dsv\n'}
+[1.606486] (my_robot_cell_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_moveit_config/share/my_robot_cell_moveit_config/.setup_assistant\n'}
+[1.610077] (my_robot_cell_moveit_config) CommandEnded: {'returncode': 0}
+[1.626959] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.631829] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/ament_index/resource_index/packages/my_robot_cell_control\n'}
+[1.632226] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/cmake/my_robot_cell_controlConfig.cmake\n'}
+[1.634971] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/cmake/my_robot_cell_controlConfig-version.cmake\n'}
+[1.635155] (my_robot_cell_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/my_robot_cell_control/share/my_robot_cell_control/package.xml\n'}
+[1.639491] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.647410] (-) TimerEvent: {}
+[1.659776] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.681619] (zenpool_draw_letter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.684255] (my_robot_cell_moveit_config) JobEnded: {'identifier': 'my_robot_cell_moveit_config', 'rc': 0}
+[1.703475] (my_robot_cell_control) CommandEnded: {'returncode': 0}
+[1.729683] (zenpool_draw_letter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.748496] (-) TimerEvent: {}
+[1.775396] (my_robot_cell_control) JobEnded: {'identifier': 'my_robot_cell_control', 'rc': 0}
+[1.849203] (-) TimerEvent: {}
+[1.955372] (-) TimerEvent: {}
+[2.063769] (-) TimerEvent: {}
+[2.169762] (-) TimerEvent: {}
+[2.270294] (-) TimerEvent: {}
+[2.338036] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[2.370441] (-) TimerEvent: {}
+[2.393757] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found parameter_traits: 0.7.1 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[2.464652] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.466896] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.470497] (-) TimerEvent: {}
+[2.570876] (-) TimerEvent: {}
+[2.671378] (-) TimerEvent: {}
+[2.747038] (zenpool_draw_letter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.771561] (-) TimerEvent: {}
+[2.864735] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[2.871720] (-) TimerEvent: {}
+[2.939815] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[2.951133] (tutan_gripper) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ros/ws_me462/build/tutan_gripper/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ros/ws_me462/build/tutan_gripper', 'env': {'HOSTNAME': 'deniz-pi500', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros', 'OLDPWD': '/home/ros', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/ros/ws_me462/install:/home/ros/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble', 'PWD': '/home/ros/ws_me462/build/tutan_gripper', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros/ws_me462/build/tutan_gripper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:/home/ros/ws_me462/build/tutan_gripper:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description'}, 'shell': False}
+[2.971997] (-) TimerEvent: {}
+[3.047500] (zenpool_draw_letter) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[3.072356] (-) TimerEvent: {}
+[3.126328] (zenpool_draw_letter) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.172480] (-) TimerEvent: {}
+[3.275215] (-) TimerEvent: {}
+[3.376969] (-) TimerEvent: {}
+[3.462386] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[3.478445] (-) TimerEvent: {}
+[3.550229] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[3.579028] (-) TimerEvent: {}
+[3.605549] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[3.679147] (-) TimerEvent: {}
+[3.690358] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.1.2 (/opt/ros/humble/share/moveit_visual_tools/cmake)\n'}
+[3.779568] (-) TimerEvent: {}
+[3.809924] (tutan_gripper) StdoutLine: {'line': b'running develop\n'}
+[3.822164] (zenpool_draw_letter) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[3.842773] (zenpool_draw_letter) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[3.846337] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found OGRE\n'}
+[3.847270] (zenpool_draw_letter) StdoutLine: {'line': b'--   static     : OFF\n'}
+[3.849372] (zenpool_draw_letter) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[3.852426] (zenpool_draw_letter) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[3.852921] (zenpool_draw_letter) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[3.853366] (zenpool_draw_letter) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[3.853848] (zenpool_draw_letter) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[3.854203] (zenpool_draw_letter) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[3.858834] (zenpool_draw_letter) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[3.859044] (zenpool_draw_letter) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[3.861484] (zenpool_draw_letter) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[3.862005] (zenpool_draw_letter) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[3.862153] (zenpool_draw_letter) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[3.862270] (zenpool_draw_letter) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[3.879822] (-) TimerEvent: {}
+[3.984903] (-) TimerEvent: {}
+[4.085642] (-) TimerEvent: {}
+[4.186105] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found controller_manager_msgs: 2.54.0 (/opt/ros/humble/share/controller_manager_msgs/cmake)\n'}
+[4.186663] (-) TimerEvent: {}
+[4.222227] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found control_msgs: 4.9.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[4.232790] (tutan_gripper) StdoutLine: {'line': b'running egg_info\n'}
+[4.234065] (tutan_gripper) StdoutLine: {'line': b'writing tutan_gripper.egg-info/PKG-INFO\n'}
+[4.234389] (tutan_gripper) StdoutLine: {'line': b'writing dependency_links to tutan_gripper.egg-info/dependency_links.txt\n'}
+[4.236805] (tutan_gripper) StdoutLine: {'line': b'writing entry points to tutan_gripper.egg-info/entry_points.txt\n'}
+[4.237961] (tutan_gripper) StdoutLine: {'line': b'writing requirements to tutan_gripper.egg-info/requires.txt\n'}
+[4.238737] (tutan_gripper) StdoutLine: {'line': b'writing top-level names to tutan_gripper.egg-info/top_level.txt\n'}
+[4.244535] (tutan_gripper) StdoutLine: {'line': b"reading manifest file 'tutan_gripper.egg-info/SOURCES.txt'\n"}
+[4.246390] (tutan_gripper) StdoutLine: {'line': b"writing manifest file 'tutan_gripper.egg-info/SOURCES.txt'\n"}
+[4.250515] (tutan_gripper) StdoutLine: {'line': b'running build_ext\n'}
+[4.252154] (tutan_gripper) StdoutLine: {'line': b'Creating /home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages/tutan-gripper.egg-link (link to .)\n'}
+[4.254424] (tutan_gripper) StdoutLine: {'line': b'Installing aruco_tracker_node script to /home/ros/ws_me462/install/tutan_gripper/lib/tutan_gripper\n'}
+[4.256762] (tutan_gripper) StdoutLine: {'line': b'Installing gripper_driver_node script to /home/ros/ws_me462/install/tutan_gripper/lib/tutan_gripper\n'}
+[4.258460] (tutan_gripper) StdoutLine: {'line': b'\n'}
+[4.262795] (tutan_gripper) StdoutLine: {'line': b'Installed /home/ros/ws_me462/build/tutan_gripper\n'}
+[4.266152] (tutan_gripper) StdoutLine: {'line': b'running symlink_data\n'}
+[4.287598] (-) TimerEvent: {}
+[4.320134] (zenpool_draw_letter) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.387467] (-) TimerEvent: {}
+[4.459034] (tutan_gripper) CommandEnded: {'returncode': 0}
+[4.488942] (-) TimerEvent: {}
+[4.526765] (tutan_gripper) JobEnded: {'identifier': 'tutan_gripper', 'rc': 0}
+[4.589549] (-) TimerEvent: {}
+[4.627060] (zenpool_draw_letter) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.630810] (zenpool_draw_letter) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ws_me462/src/ME462RobotControl/zenpool_draw_letter/include>\n'}
+[4.633524] (zenpool_draw_letter) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.636767] (zenpool_draw_letter) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.638634] (zenpool_draw_letter) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.639750] (zenpool_draw_letter) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.643736] (zenpool_draw_letter) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.644096] (zenpool_draw_letter) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.646409] (zenpool_draw_letter) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.658105] (zenpool_draw_letter) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.689728] (-) TimerEvent: {}
+[4.790331] (-) TimerEvent: {}
+[4.847826] (zenpool_draw_letter) StdoutLine: {'line': b'-- Generating done\n'}
+[4.886677] (zenpool_draw_letter) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ws_me462/build/zenpool_draw_letter\n'}
+[4.890420] (-) TimerEvent: {}
+[4.956383] (zenpool_draw_letter) CommandEnded: {'returncode': 0}
+[4.957817] (zenpool_draw_letter) JobProgress: {'identifier': 'zenpool_draw_letter', 'progress': 'build'}
+[4.958660] (zenpool_draw_letter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ws_me462/build/zenpool_draw_letter', '--', '-j4', '-l4'], 'cwd': '/home/ros/ws_me462/build/zenpool_draw_letter', 'env': OrderedDict([('HOSTNAME', 'deniz-pi500'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros/ws_me462/install:/home/ros/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble'), ('PWD', '/home/ros/ws_me462/build/zenpool_draw_letter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros/ws_me462/build/tutan_gripper:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble')]), 'shell': False}
+[4.990561] (-) TimerEvent: {}
+[5.090996] (-) TimerEvent: {}
+[5.104944] (zenpool_draw_letter) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zenpool_teleop_servo\x1b[0m\n'}
+[5.111539] (zenpool_draw_letter) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zenpool_draw_letter\x1b[0m\n'}
+[5.112925] (zenpool_draw_letter) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target zenpool_draw_servo\x1b[0m\n'}
+[5.178472] (zenpool_draw_letter) StdoutLine: {'line': b'[ 33%] Built target zenpool_teleop_servo\n'}
+[5.191135] (-) TimerEvent: {}
+[5.231876] (zenpool_draw_letter) StdoutLine: {'line': b'[ 66%] Built target zenpool_draw_servo\n'}
+[5.258802] (zenpool_draw_letter) StdoutLine: {'line': b'[100%] Built target zenpool_draw_letter\n'}
+[5.283009] (zenpool_draw_letter) CommandEnded: {'returncode': 0}
+[5.284516] (zenpool_draw_letter) JobProgress: {'identifier': 'zenpool_draw_letter', 'progress': 'install'}
+[5.284578] (zenpool_draw_letter) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ws_me462/build/zenpool_draw_letter'], 'cwd': '/home/ros/ws_me462/build/zenpool_draw_letter', 'env': OrderedDict([('HOSTNAME', 'deniz-pi500'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros/ws_me462/install:/home/ros/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/tutan_gripper:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/opt/ros/humble'), ('PWD', '/home/ros/ws_me462/build/zenpool_draw_letter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros/ws_me462/build/tutan_gripper:/home/ros/ws_me462/install/tutan_gripper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ws_me462/install/zenpool_draw_letter:/home/ros/ws_me462/install/my_robot_cell_moveit_config:/home/ros/ws_me462/install/my_robot_cell_control:/home/ros/ws_me462/install/my_robot_cell_description:/home/ros/ws_me462/install/tutan_gripper:/opt/ros/humble')]), 'shell': False}
+[5.291270] (-) TimerEvent: {}
+[5.316511] (zenpool_draw_letter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.318387] (zenpool_draw_letter) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.318808] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/zenpool_draw_letter\n'}
+[5.318964] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/zenpool_draw_servo\n'}
+[5.319369] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/zenpool_teleop_servo\n'}
+[5.320138] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/face_tracker_servo.py\n'}
+[5.320436] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/aruco_tracker_servo.py\n'}
+[5.320600] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/custom_dashboard.py\n'}
+[5.320772] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/tool_manager.py\n'}
+[5.320884] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/take_one.py\n'}
+[5.321013] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/drop_one.py\n'}
+[5.321303] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/take_two.py\n'}
+[5.321410] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/drop_two.py\n'}
+[5.321604] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/take_three.py\n'}
+[5.321766] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/drop_three.py\n'}
+[5.322307] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/full_cleaning.py\n'}
+[5.322497] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/drawing_job_executor.py\n'}
+[5.322588] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/active_grippering_sequence.py\n'}
+[5.322674] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/take_papis.py\n'}
+[5.322823] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/lib/zenpool_draw_letter/drop_papis.py\n'}
+[5.323147] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/launch/zenpool_draw.launch.py\n'}
+[5.323460] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/ament_index/resource_index/package_run_dependencies/zenpool_draw_letter\n'}
+[5.323722] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/ament_index/resource_index/parent_prefix_path/zenpool_draw_letter\n'}
+[5.323972] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/ament_prefix_path.sh\n'}
+[5.324196] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/ament_prefix_path.dsv\n'}
+[5.324454] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/path.sh\n'}
+[5.324710] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/environment/path.dsv\n'}
+[5.324899] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.bash\n'}
+[5.325112] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.sh\n'}
+[5.325356] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.zsh\n'}
+[5.325589] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/local_setup.dsv\n'}
+[5.325860] (zenpool_draw_letter) StdoutLine: {'line': b'-- Symlinking: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/package.dsv\n'}
+[5.356053] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/ament_index/resource_index/packages/zenpool_draw_letter\n'}
+[5.356512] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/cmake/zenpool_draw_letterConfig.cmake\n'}
+[5.356737] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/cmake/zenpool_draw_letterConfig-version.cmake\n'}
+[5.356835] (zenpool_draw_letter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros/ws_me462/install/zenpool_draw_letter/share/zenpool_draw_letter/package.xml\n'}
+[5.360743] (zenpool_draw_letter) CommandEnded: {'returncode': 0}
+[5.388482] (zenpool_draw_letter) JobEnded: {'identifier': 'zenpool_draw_letter', 'rc': 0}
+[5.389951] (-) EventReactorShutdown: {}

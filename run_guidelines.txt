@@ -56,6 +56,15 @@ calculates Inverse Kinematics (IK) in real-time.
 Wait until it prints that the servo node is ready.
 
 ---------------------------------------------------------
+OPTIONAL: Launch RViz Visualization
+---------------------------------------------------------
+If you want to view the robot's physical state, planned trajectories, or 3D collision models, you can manually launch the RViz interface in a new terminal:
+
+  cd ~/ws_me462
+  source install/local_setup.bash
+  ros2 launch my_robot_cell_moveit_config moveit_rviz.launch.py rviz_config:=/home/ros/.zenpool.config.rviz
+
+---------------------------------------------------------
 STEP 4: Choose Your Control Mode (Terminal 3)
 ---------------------------------------------------------
 Open a third terminal, enter the Docker container, and choose ONE 
@@ -170,6 +179,24 @@ To safely pick up or drop a tool, first move the robot exactly into the toolbox 
   ros2 topic pub --once /tool_manager/command std_msgs/msg/String "{data: 'detach tutankhamun'}"
   ros2 topic pub --once /tool_manager/command std_msgs/msg/String "{data: 'detach cleaner'}"
   ros2 topic pub --once /tool_manager/command std_msgs/msg/String "{data: 'detach pen'}"
+
+---------------------------------------------------------
+OPTION F: Automated Drawing & Cleaning Engine
+---------------------------------------------------------
+Run this node to listen for automated drawing and erasing jobs (from the Web App / Computer Vision server) via a TCP socket. It handles all tool swapping, dynamic path downsampling, geometric offsets, and continuous zig-zag erasing automatically.
+
+  # Terminal 6 (Docker): Start the Drawing Job Executor
+  cd ~/ws_me462
+  source install/local_setup.sh
+  ros2 run zenpool_draw_letter drawing_job_executor.py
+
+*Other Commands (Run in any Docker terminal):*
+
+- **Trigger the Full Board Cleaning Sequence (Squeegee):**
+  ros2 run zenpool_draw_letter full_cleaning.py
+
+- **Offline / Manual Job Execution:**
+  ros2 run zenpool_draw_letter drawing_job_executor.py --offline /path/to/job.json
 
 ---------------------------------------------------------
 TROUBLESHOOTING & NETWORKING:

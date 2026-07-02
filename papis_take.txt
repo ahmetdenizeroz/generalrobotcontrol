@@ -1,0 +1,77 @@
+take papis anchor (joint)
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- 0.4273686707019806
+- -1.4133178156665345
+- -1.7446057796478271
+- 1.5708098411560059
+- 3.088430404663086
+- -1.5540568076870223
+
+
+move the this position (joint)
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_join
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- 0.7920351028442383
+- -2.1748715839781703
+- -2.3224070072174072
+- -1.5663569609271448
+- 3.0839507579803467
+- -0.21453531206164556
+
+
+move to this position (joint)
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- 1.179408073425293
+- -2.2434193096556605
+- -2.314682722091675
+- -1.5662911573993128
+- 3.0835282802581787
+- -0.15378482759509282
+
+
+
+move to this position (joint)
+name:
+- ur5e_shoulder_pan_joint
+- ur5e_shoulder_lift_joint
+- ur5e_elbow_joint
+- ur5e_wrist_2_joint
+- ur5e_wrist_3_joint
+- ur5e_wrist_1_joint
+position:
+- 1.1326180696487427
+- -2.758818288842672
+- -1.2131403684616089
+- -1.5706313292132776
+- 2.7941431999206543
+- -0.739929274921753
+
+
+move to this position (cartesian!)
+- Translation: [-0.759, -0.133, 0.231] (wrt pool_actual frame)
+
+move to this position (cartesian)!
+ Translation: [-0.459, -0.133, 0.231] (wrt pool_actual frame)
+
+
+
